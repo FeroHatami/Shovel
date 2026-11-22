@@ -1,0 +1,52 @@
+[
+ {
+  "id": "intro",
+  "say": "This is Shovel. Drop in a bill of quantities, and get it back marked up in red pen.",
+  "cap": "This is Shovel. Drop in a bill of quantities, and get it back marked up in red pen."
+ },
+ {
+  "id": "open",
+  "say": "These are the organisers' real tenders. Open one.",
+  "cap": "These are the organisers' real tenders. Open one."
+ },
+ {
+  "id": "doc",
+  "say": "It is your document, with every problem underlined and a note in the margin. Here, the short text says D.N. one twenty-five, the long text says D.N. one hundred.",
+  "cap": "It is your document, with every problem underlined and a note in the margin. Here: short text DN 125, long text DN 100."
+ },
+ {
+  "id": "decide",
+  "say": "One click to ask the client. The question is already written.",
+  "cap": "One click to ask the client. The question is already written."
+ },
+ {
+  "id": "package",
+  "say": "Your questions become a finished letter, with risk surcharges and a bid draft for your estimating software.",
+  "cap": "Your questions become a finished letter, with risk surcharges and a bid draft for your estimating software."
+ },
+ {
+  "id": "photo",
+  "say": "Only have paper? Take a photo. Shovel draws its marks right on your page.",
+  "cap": "Only have paper? Take a photo. Shovel draws its marks right on your page."
+ },
+ {
+  "id": "compare",
+  "say": "And when the client sends a revised version days before the deadline, Shovel shows exactly what changed: quantities, texts, new items, and the new risks they bring.",
+  "cap": "When the client sends a revised version days before the deadline, Shovel shows exactly what changed: quantities, texts, new items – and the new risks they bring."
+ },
+ {
+  "id": "project",
+  "say": "Across a whole building, it finds work that falls between the trades.",
+  "cap": "Across a whole building, it finds work that falls between the trades."
+ },
+ {
+  "id": "bid",
+  "say": "And in bids, prices that cannot cover their cost.",
+  "cap": "And in bids, prices that cannot cover their cost."
+ },
+ {
+  "id": "outro",
+  "say": "Rules you can trust. Prices from your own projects. And A.I. only where it can quote the source. Shovel. Dig before you bid.",
+  "cap": "Rules you can trust. Prices from your own projects. AI only where it can quote the source."
+ }
+]

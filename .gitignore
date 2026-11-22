@@ -1,0 +1,15 @@
+node_modules/
+.DS_Store
+# organisers' dataset and anything derived from uploads
+Shovel/data/
+Shovel/cache/uploads/
+Shovel/cache/pages/
+Shovel/cache/bin/
+Shovel/dist/
+# voice model, virtualenv and intermediate video files
+Production/Demo/.tts/
+Production/Demo/build/
+# internal working notes for the AI sessions (contain the organisers' dataset link)
+DocPipline/
+CLAUDE.md
+.claude/

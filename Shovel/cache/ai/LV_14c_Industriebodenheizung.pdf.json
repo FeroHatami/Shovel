@@ -1,0 +1,83 @@
+{
+ "docId": "7c9ad8186d9a532e",
+ "fileName": "LV_14c_Industriebodenheizung.pdf",
+ "model": "claude-fable-5-2 (offline über Claude Code)",
+ "createdAt": "2026-11-21T06:06:49.716Z",
+ "findings": [
+  {
+   "oz": "1",
+   "category": "menge",
+   "severity": 3,
+   "title": "Verlegeabstand 15 mm nicht ausführbar, beheizte Fläche fehlt",
+   "detail": "Ein Verlegeabstand von 15 mm ist bei einem Rohr mit 20 mm Außendurchmesser nicht möglich; gemeint sind vermutlich 15 cm. Bei 15 cm ergeben 1010 m Rohr rund 150 m² Heizfläche und etwa 92 m je Heizkreis einschließlich Anbindung. Die Flächen der Räume 0.19 und 0.20 nennt das LV nicht, die Rohrmenge lässt sich daher nicht prüfen. Bei größerem Abstand oder größerer Fläche ändern sich Rohrmenge und Montagezeit erheblich.",
+   "quote": "Verlegeabstand: 15 mm",
+   "action": "bieterfrage",
+   "question": "Zu Pos. 1: Welcher Verlegeabstand ist auszuführen (15 cm statt 15 mm)? Welche beheizte Fläche haben die Räume 0.19 und 0.20, und sind die Anbindeleitungen zum Verteiler in den 1010 m enthalten? Liegt ein Verlegeplan mit Heizkreislängen vor?",
+   "nachtrag": "Mengenabweichung über 10 %: Preisanpassung nach § 2 Abs. 3 VOB/B verlangen."
+  },
+  {
+   "oz": "2",
+   "category": "widerspruch",
+   "severity": 2,
+   "title": "Verteilerabgänge 25x2,3, Rohr und Verbindungsstücke 20x2",
+   "detail": "Der Verteiler ist mit Heizkreisabgängen für Rohr 25x2,3 beschrieben. Pos. 1 schreibt Rohr 20x2 aus, Pos. 4 Verbindungsstücke für PE-Xa 20. Die Klemmringverschraubungen passen so nicht zusammen. Entweder sind andere Verschraubungen am Verteiler oder Übergänge nötig, oder die Rohrdimension stimmt nicht.",
+   "quote": "Heizkreisabgang 25x2,3 mit Klemmringverschraubung",
+   "action": "bieterfrage",
+   "question": "Zu Pos. 2: Der Verteiler ist mit Heizkreisabgängen 25x2,3 beschrieben, das Rohr in Pos. 1 und die Verbindungsstücke in Pos. 4 mit 20x2. Welche Dimension gilt, und sind die Anschlussverschraubungen am Verteiler für 20x2 zu liefern?"
+  },
+  {
+   "oz": "",
+   "category": "schnittstelle",
+   "severity": 3,
+   "title": "Stahlmatten nur beigestellt: Verlegen und Lage der Rohre offen",
+   "detail": "Die Vorbemerkung nennt zwei Befestigungsarten: Anbinden an die bauseitige untere Bewehrung und Montage auf Stahlgittermatten auf einer Trennfolie unter bzw. in der Bodenplatte. Die Matten werden vom Gewerk Bau nur geliefert; wer sie verlegt, steht nicht da. Muss der Heizungsbauer Trägermatten für beide Räume verlegen, ist das eine eigene Leistung ohne Position. Hinzu kommt die Koordination mit dem Bewehrungseinbau und das Arbeiten auf der Trennfolie, die nicht beschädigt werden darf.",
+   "quote": "Stahlgittermatten werden durch das Gewerk Bau beigestellt (geliefert).",
+   "action": "bieterfrage",
+   "question": "Zu Pos. 1 und zur Vorbemerkung: Wer verlegt die vom Gewerk Bau beigestellten Stahlgittermatten und die Trennfolie? Werden die Rohre an der unteren Bewehrung der Bodenplatte oder auf einer gesonderten Trägermatte befestigt, und in welcher Höhenlage innerhalb der Bodenplatte?",
+   "nachtrag": "Verlegen der Trägermatten durch den AN ohne Position: zusätzliche Leistung nach § 2 Abs. 6 VOB/B, vor Ausführung ankündigen."
+  },
+  {
+   "oz": "10",
+   "category": "widerspruch",
+   "severity": 2,
+   "title": "Prüfdruck mindestens 10 bar, Verteiler nur bis 6 bar zugelassen",
+   "detail": "Verlangt wird ein Prüfdruck von mindestens 10 bar, der während des Betonierens zu halten ist. Der Verteiler in Pos. 2 ist für maximal 6 bar Betriebsdruck beschrieben, das Rohr in der Anwendungsklasse 4+5 für 6 bar. Die Druckprobe müsste also ohne Verteiler mit Prüfstopfen je Heizkreis erfolgen oder der Prüfdruck gesenkt werden. Das ändert Aufwand und Haftung für Schäden an den Komponenten.",
+   "quote": "muss das Doppelte des Betriebsdrucks, mindestens jedoch 10 bar betragen",
+   "action": "bieterfrage",
+   "question": "Zu Pos. 10: Der geforderte Prüfdruck von mindestens 10 bar übersteigt den zulässigen Betriebsdruck des in Pos. 2 beschriebenen Verteilers (6 bar). Mit welchem Prüfdruck ist zu prüfen, und ist der Verteiler in die Druckprobe einzubeziehen?"
+  },
+  {
+   "oz": "10",
+   "category": "vertrag",
+   "severity": 2,
+   "title": "Ständige Anwesenheit beim Betonieren pauschal, Dauer unbekannt",
+   "detail": "Die Pauschale fasst Druckprobe, ständige Anwesenheit eines Monteurs beim Betonieren, hydraulischen Abgleich und Funktionsheizen zusammen. Die Zahl der Betonierabschnitte und die Betonierdauer nennt das LV nicht; beides bestimmt der Rohbau. Das Funktionsheizen setzt eine betriebsbereite Wärmeerzeugung und eine ausreichend erhärtete Bodenplatte voraus und erfordert einen eigenen, späteren Einsatz.",
+   "quote": "Schichten muss ein Mitarbeiter des Auftragnehmers ständig anwesend sein",
+   "action": "zuschlag",
+   "question": "Zu Pos. 10: In wie vielen Betonierabschnitten und über welche Dauer wird die Bodenplatte in den Räumen 0.19 und 0.20 betoniert? Steht zum Funktionsheizen die Wärmeerzeugung bauseits betriebsbereit zur Verfügung, und über welche Dauer ist das Funktionsheizen durchzuführen?",
+   "basis": "VOB/A § 7 Abs. 1 Nr. 3, § 7b Abs. 4",
+   "surchargePct": 10
+  },
+  {
+   "oz": "3",
+   "category": "schnittstelle",
+   "severity": 2,
+   "title": "Stellantriebe 230 V ohne Regelung und Verkabelung",
+   "detail": "Ausgeschrieben sind 11 Stellantriebe für 230 V. Raumtemperaturregler, Regelverteiler bzw. Anschlussmodul, Verkabelung und der elektrische Anschluss kommen im LV nicht vor. Ohne Angabe ist offen, ob das Gewerk Elektro oder MSR diese Leistungen erbringt oder ob sie vom Heizungsbauer erwartet werden.",
+   "quote": "Netz: 230 V",
+   "action": "bieterfrage",
+   "question": "Zu Pos. 3: Wer liefert und montiert die Raumtemperaturregler und den Regelverteiler für die 11 Stellantriebe, und wer stellt den elektrischen Anschluss und die Verkabelung her?",
+   "nachtrag": "Werden Regler und Verkabelung vom AN verlangt: zusätzliche Leistung nach § 2 Abs. 6 VOB/B, vor Ausführung ankündigen."
+  },
+  {
+   "oz": "6",
+   "category": "widerspruch",
+   "severity": 1,
+   "title": "Messstellen für Estrich, obwohl die Rohre in der Betonbodenplatte liegen",
+   "detail": "Die Position beschreibt Messstellen für die Feuchtemessung im Estrich mit Befestigung auf der Abdeckung nach DIN 18560. Nach der Vorbemerkung liegen die Heizregister in der Betonbodenplatte auf der Bewehrung; eine Estrichabdeckung gibt es dort nicht. Auch das Bewegungsfugenprofil der Pos. 7 stammt aus dem Estrichaufbau. Für Fugen der Bodenplatte fehlen Schutzrohre für kreuzende Heizrohre.",
+   "quote": "Feuchtemessung im Estrich, mit rotem",
+   "action": "bieterfrage",
+   "question": "Zu Pos. 6 und 7: Die Heizrohre liegen laut Vorbemerkung in der Betonbodenplatte. Wie und woran sind die Messstellenmarkierungen dort zu befestigen, und wie werden Heizrohre geschützt, die Fugen der Bodenplatte kreuzen (Schutzrohre, Position)?"
+  }
+ ]
+}

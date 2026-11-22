@@ -1,0 +1,25 @@
+// Screenshots of the running app (localhost:8787) for the deck. Uses the Playwright copy in ../Pitch.
+import { createRequire } from 'node:module';
+const require = createRequire(new URL('../Pitch/', import.meta.url).pathname);
+const { chromium } = require('playwright');
+const U = 'http://localhost:8787';
+const b = await chromium.launch();
+const ctx = await b.newContext({ viewport: { width: 1600, height: 900 }, deviceScaleFactor: 2, locale: 'en-US' });
+const p = await ctx.newPage();
+const wait = (ms) => p.waitForTimeout(ms);
+const state = await (await fetch(U + '/api/state?lang=en')).json();
+const id = (f) => state.docs.find((d) => d.fileName === f)?.id;
+await p.goto(U + '/#/'); await p.waitForSelector('.trow');
+await p.evaluate(() => [...document.querySelectorAll('.lang button')].find((x) => x.textContent === 'EN')?.click()); await wait(900);
+await p.screenshot({ path: 'media/home.png' });
+const doc = id('8209.003_Leistungsverzeichnis_leer.X83');
+await p.goto(`${U}/#/doc/${doc}`); await p.waitForSelector('.rail'); await wait(600);
+await p.click('.sevjump'); await wait(1000);
+await p.screenshot({ path: 'media/review.png' });
+await p.click('.note.on [data-decide="bieterfrage"]').catch(() => {}); await wait(600);
+await p.goto(`${U}/#/doc/${doc}/package`); await p.waitForSelector('.pkg-main'); await wait(600);
+await p.screenshot({ path: 'media/package.png' });
+const a = id('GAEB-[PROJEKT_004].X83'), r = id('GAEB-[PROJEKT_004]_Nachsendung-1_Demo.X83');
+await p.goto(`${U}/#/compare/${a}/${r}`); await p.waitForSelector('.tiles'); await wait(500);
+await p.screenshot({ path: 'media/compare.png' });
+await b.close();

@@ -1,0 +1,128 @@
+00        84L                                                 1122PPPPI90 000001
+01AN26-0412                               20.11.26                        000002
+02Erneuerung Wasserleitung DN 250, Ortsnetz Beispielhausen                000003
+08EUR   Euro                                                              000004
+1101       N                                                              000005
+12Baustelleneinrichtung                                                   000006
+110101     N                                                              000007
+12Baustelleneinrichtung                                                   000008
+2101010010 NNN         00000001000psch                                    000009
+2301010010  00078000000 000007800000                                      000010
+25Baustelleneinrichtung herstellen                                        000011
+26   Baustelle einrichten.                                                000012
+2101010020 NNN         00000006500Mt                                      000013
+2301010020  00000850000 000000552500                                      000014
+25Baustelleneinrichtung vorhalten                                         000015
+26   Vorhalten der Baustelleneinrichtung.                                 000016
+2101010030 NNN         00000001000psch                                    000017
+2301010030  00006500000 000000650000                                      000018
+25Baustelle rÑumen                                                        000019
+26   Baustelle rÑumen.                                                    000020
+2101010040 NNN         00000001000psch                                    000021
+2301010040  00004200000 000000420000                                      000022
+25Verkehrssicherung Arbeitsstelle                                         000023
+26   Verkehrssicherung nach RSA.                                          000024
+2101010050 NNN         00000500000m                                       000025
+2301010050  00000000100 000000005000                                      000026
+25Schutzzaun ortsfest, h = 2,00 m                                         000027
+26   Schutzzaun aufstellen und vorhalten.                                 000028
+2101010060 NNN         00000001000psch                                    000029
+2301010060  00000980000 000000098000                                      000030
+25Beweissicherung durchfÅhren                                             000031
+26   Beweissicherung vor Baubeginn.                                       000032
+2101010070 NNN         00000001000psch                                    000033
+2301010070  00000450000 000000045000                                      000034
+25SpartenplÑne einholen                                                   000035
+26   SpartenplÑne aller Versorger einholen.                               000036
+310101                                                                    000037
+320101      000009621000                                                  000038
+3101                                                                      000039
+1102       N                                                              000040
+12Erd- und OberflÑchenarbeiten                                            000041
+110201     N                                                              000042
+12Rohrgraben                                                              000043
+2102010010 NNN         00006800000m3                                      000044
+2302010010  00000000500 000000340000                                      000045
+25Oberboden abschieben und andecken                                       000046
+26   Oberboden abschieben, lagern und wieder andecken.                    000047
+2102010020 NNN         00003600000m2                                      000048
+2302010020  00000000050 000000018000                                      000049
+25Geotextil liefern und verlegen                                          000050
+26   Geotextil GRK 3 liefern und verlegen.                                000051
+2102010030 NNN         00000550000m3                                      000052
+2302010030  00000028500 000001567500                                      000053
+25Rohrgrabenaushub HB 1                                                   000054
+26   Rohrgrabenaushub Homogenbereich 1, Tiefe bis 1,75 m.                 000055
+2102010040 NNN         00004850000m3                                      000056
+2302010040  00000028500 000018322500                                      000057
+25Rohrgrabenaushub HB 2                                                   000058
+26   Rohrgrabenaushub Homogenbereich 2, Tiefe bis 1,75 m.                 000059
+2102010050 NNN         00000050000m3                                      000060
+2302010050  00000000680 000000003400                                      000061
+25Handschachtung                                                          000062
+26   Handschachtung im Bereich kreuzender Leitungen.                      000063
+2102010060 NNN         00000050000m3                                      000064
+2302010060  00000000240 000000001200                                      000065
+25Suchschlitze                                                            000066
+26   Suchschlitze herstellen und verfÅllen.                               000067
+2102010070 NNN         00000620000m3                                      000068
+2302010070  00000480000 000029760000                                      000069
+25Sandbettung und UmhÅllung                                               000070
+26   Leitungszone aus Sand 0/4 herstellen.                                000071
+2102010080 NNN         00004700000m3                                      000072
+2302010080  00000017500 000008225000                                      000073
+25Rohrgraben verfÅllen und verdichten                                     000074
+26   Rohrgraben lagenweise verfÅllen und verdichten.                      000075
+2102010090 NNN         00000700000m3                                      000076
+2302010090  00000026000 000001820000                                      000077
+25Boden abfahren und entsorgen                                            000078
+26   öberschÅssigen Boden abfahren, Materialklasse BM-0.                  000079
+310201                                                                    000080
+110203     N                                                              000081
+12Asphalt                                                                 000082
+2102030010 NNN         00000420000m                                       000083
+2302030010  00000007500 000000315000                                      000084
+25Stra·endecke schneiden                                                  000085
+26   Asphalt schneiden, Vor- und Nachschnitt.                             000086
+2102030020 NNN         00000095000m3                                      000087
+2302030020  00000088000 000000836000                                      000088
+25Stra·enaufbruch bituminîser Oberbau                                     000089
+26   Bituminîsen Oberbau aufbrechen und entsorgen.                        000090
+2102030030 NNN         00000210000m3                                      000091
+2302030030  00000041000 000000861000                                      000092
+25Frostschutzschicht herstellen                                           000093
+26   Frostschutzschicht 0/45, Dicke 50 cm.                                000094
+2102030040 NNN         00000420000m2                                      000095
+2302030040  00000037000 000001554000                                      000096
+25Asphalttragschicht 14 cm herstellen                                     000097
+26   Asphalttragschicht AC 32 T S, 14 cm.                                 000098
+2102030050 NNN         00000420000m2                                      000099
+2302030050  00000000000 000000000000                                      000100
+25Asphaltdeckschicht 4 cm herstellen                                      000101
+26   Asphaltdeckschicht AC 11 D S, 4 cm.                                  000102
+310203                                                                    000103
+3102                                                                      000104
+1103       N                                                              000105
+12Rohrleitungsbau                                                         000106
+110301     N                                                              000107
+12Rohrleitungsmaterial DN 250                                             000108
+2103010010 NNN         00003200000m                                       000109
+2303010010  00000138000 000044160000                                      000110
+25Muffendruckrohre GGG DN 250 liefern                                     000111
+26   Muffendruckrohre aus duktilem Gusseisen DN 250, PN 10,               000112
+26   liefern.                                                             000113
+2103010020 NNN         00002900000m                                       000114
+2303010020  00000031000 000008990000                                      000115
+25Muffendruckrohre GGG DN 250 verlegen                                    000116
+26   Rohre DN 250 im Rohrgraben verlegen.                                 000117
+2103010030 NNN         00000540000St                                      000118
+2303010030  00000012500 000000675000                                      000119
+25Muffenschutz DN 250                                                     000120
+26   Muffenschutz liefern und einbauen.                                   000121
+2103010040 NNN         00003200000m                                       000122
+2303010040  00000002400 000000768000                                      000123
+25DruckprÅfung                                                            000124
+26   DruckprÅfung der Leitung nach DVGW W 400-2.                          000125
+310301                                                                    000126
+3103                                                                      000127
+99000127787100                                                       00025000128

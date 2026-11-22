@@ -1,0 +1,96 @@
+{
+ "docId": "e6e6d5993d0bf7f8",
+ "fileName": "GAEB-[PROJEKT_004].X83",
+ "model": "claude-fable-5-2 (offline über Claude Code)",
+ "createdAt": "2026-11-21T06:06:48.631Z",
+ "findings": [
+  {
+   "oz": "",
+   "category": "vertrag",
+   "severity": 3,
+   "title": "Abnahme von Zustimmung der Grundstückseigentümer abhängig",
+   "detail": "Die Abnahme soll erst möglich sein, wenn alle Grundstückseigentümer schriftlich ihr Einverständnis mit dem Zustand ihrer Grundstücke erklärt haben. Ob Dritte unterschreiben, kann der AN nicht beeinflussen. Verweigert ein Eigentümer die Erklärung, verschieben sich Abnahme, Gefahrübergang, Beginn der Verjährungsfrist und Fälligkeit der Schlusszahlung auf unbestimmte Zeit. Die Regelung weicht von § 12 VOB/B ab.",
+   "quote": "Voraussetzung für eine Abnahme ist die Einverständniserklärung der jeweiligen Grundstückseigentümer",
+   "action": "bieterfrage",
+   "question": "Zu den Vorbemerkungen, Abschnitt Abnahme: Wie wird verfahren, wenn ein Grundstückseigentümer die Einverständniserklärung trotz vertragsgerechter Wiederherstellung nicht abgibt? Wird die Abnahme dann nach § 12 VOB/B durchgeführt, und wie viele Eigentümer sind betroffen?",
+   "basis": "§ 12 VOB/B, VOB/A § 7 Abs. 1 Nr. 3",
+   "surchargePct": 2
+  },
+  {
+   "oz": "02.0016",
+   "category": "vertrag",
+   "severity": 3,
+   "title": "Wasserhaltung Bach pauschal: 10 m Ableitung bei 121 m Baulänge, Abfluss über 150 l/s ungeregelt",
+   "detail": "Die Pauschale begrenzt den Ableitungskanal auf 10 m, die Verrohrung wird aber auf 121 m erneuert; eine Umleitung muss die jeweilige Baugrube überbrücken. Die Dauer der Wasserhaltung ist nicht genannt. Der Bach wird von DN 600 auf DN 800/900 vergrößert, der Abfluss bei Regen liegt also deutlich über 150 l/s; wer dann das Risiko einer gefluteten Baugrube trägt, ist offen. Eine Wasserhaltung für Grund- und Schichtenwasser im Rohrgraben und die wasserrechtliche Erlaubnis kommen im LV nicht vor.",
+   "quote": "Länge Ableitungskanal bis 10 m.",
+   "action": "bieterfrage",
+   "question": "Zu Pos. 02.0016: Über welche Länge und Dauer ist der Bach umzuleiten, wenn die Verrohrung auf 121 m erneuert wird? Wer trägt das Risiko bei Abflüssen über 150 l/s, liegt die wasserrechtliche Erlaubnis vor, und wie wird eine Wasserhaltung für Grund- und Schichtenwasser im Rohrgraben vergütet?",
+   "basis": "VOB/A § 7 Abs. 1 Nr. 3",
+   "surchargePct": 15,
+   "nachtrag": "Schäden und Stillstand durch Abflüsse über 150 l/s sowie Grundwasserhaltung: Behinderung nach § 6 VOB/B anzeigen, zusätzliche Leistung nach § 2 Abs. 6 VOB/B vor Ausführung ankündigen."
+  },
+  {
+   "oz": "02.0005",
+   "category": "menge",
+   "severity": 3,
+   "title": "270 m³ Wiedereinbau passen nicht in den Graben",
+   "detail": "Die drei Aushubpositionen ergeben zusammen 500 m³, das entspricht 121 m × 2,00 m Regelbreite × rund 2 m Tiefe. Davon nehmen Bettung und Einbettung 230 m³ (Pos. 02.0009) und die Rohre selbst überschlägig 100 m³ ein. Für den Wiedereinbau von Aushub bleiben höchstens etwa 170 m³, im Bereich der Straßenquerung wegen der Frostschutzschicht noch weniger. Abgefahren werden laut LV nur 230 m³; für den Überschuss von rund 100 m³ fehlt die Abfuhr, und die Position macht den Wiedereinbau zusätzlich von der Eignung des Bodens abhängig.",
+   "quote": "ausheben, seitlich lagern, wieder verfüllen und verdichten,",
+   "action": "bieterfrage",
+   "question": "Zu Pos. 02.0005: Aushub gesamt 500 m³ (Pos. 02.0005 bis 02.0007), Bettung 230 m³ und Rohrverdrängung lassen einen Wiedereinbau von 270 m³ nicht zu. Welche Menge wird tatsächlich wieder eingebaut, und über welche Position wird überschüssiger oder nicht geeigneter Aushub abgefahren?",
+   "nachtrag": "Mengenverschiebung zwischen 02.0005 und 02.0006/02.0007 über 10 %: Preisanpassung nach § 2 Abs. 3 VOB/B verlangen."
+  },
+  {
+   "oz": "02.0002",
+   "category": "unklar",
+   "severity": 2,
+   "title": "Asphaltaufbruch geht in AN-Eigentum, keine Angabe zu Pechgehalt",
+   "detail": "Der AN übernimmt den Asphaltaufbruch und muss ihn verwerten. Eine Einstufung nach Verwertungsklasse bzw. eine Aussage zu teer- oder pechhaltigen Bestandteilen fehlt. Bei Aushub und Abbruchmaterial trägt der AG laut LV die Beprobung und die Kosten für belastetes Material, beim Asphalt nicht. Pechhaltiger Aufbruch wäre ein Vielfaches teurer zu entsorgen.",
+   "quote": "Asphaltbruch in Eigentum des AN übernehmen und von der Baustelle entfernen.",
+   "action": "bieterfrage",
+   "question": "Zu Pos. 02.0002: Liegt für den Asphalt eine Untersuchung auf PAK/Pech vor, und welcher Verwertungsklasse ist der Aufbruch zuzuordnen? Trägt der AG wie bei Pos. 02.0008 und 02.0019 die Kosten für belastetes Material?",
+   "nachtrag": "Stellt sich der Aufbruch als pechhaltig heraus: geänderte Leistung nach § 2 Abs. 5 VOB/B, vor der Abfuhr anzeigen und Anordnung abwarten."
+  },
+  {
+   "oz": "02.0017",
+   "category": "unklar",
+   "severity": 2,
+   "title": "Ausbau Altrohre: Entsorgung ohne Deklaration, Bestand DN 600 und DN 800",
+   "detail": "100 m Betonrohre gehen ohne Deklaration ins Eigentum des AN, während das Abbruchmaterial des Schachts (Pos. 02.0019) bauseits beprobt und als RW 1 eingestuft wird. Rohre aus einem Bachlauf können belastete Anhaftungen und Sedimente enthalten; deren Entsorgung ist nicht geregelt. Die Vorbemerkung nennt für den Bestand DN 600, Pos. 03.0006 schneidet bestehende Rohre DN 800; welche Längen welcher Nennweite auszubauen sind, bleibt offen.",
+   "quote": "Material in Eigentum des AN übernehmen und von der Baustelle entfernen.",
+   "action": "bieterfrage",
+   "question": "Zu Pos. 02.0017: Welche Einstufung gilt für die auszubauenden Betonrohre und das darin abgelagerte Sediment, und wer trägt die Kosten bei Belastung? Sind neben DN 600 auch Bestandsrohre DN 800 auszubauen, und über welche Position?"
+  },
+  {
+   "oz": "02.0011",
+   "category": "luecke",
+   "severity": 2,
+   "title": "Bodenaustausch: Aushub und Abfuhr des ausgetauschten Bodens nicht beschrieben",
+   "detail": "Die Positionen 02.0011 und 02.0012 (zusammen 85 m³) beschreiben nur Lieferung und Einbau des Austauschmaterials. Der Mehraushub unter der Grabensohle und die Abfuhr des nicht tragfähigen Bodens stehen nicht im Text; die Aushubpositionen sind auf 2,00 m Tiefe begrenzt. Nicht tragfähiger, nasser Boden neben einem Bach ist bei der Entsorgung zudem anders einzustufen als der Regelaushub.",
+   "quote": "Bodenaustausch innerhalb Rohrgraben herstellen, Austauschmaterial liefern,",
+   "action": "bieterfrage",
+   "question": "Zu Pos. 02.0011 und 02.0012: Sind Aushub und Abfuhr des auszutauschenden Bodens in diesen Positionen einzurechnen oder werden sie über Pos. 02.0006/02.0007 vergütet? Gilt das auch für Aushubtiefen über 2,00 m?"
+  },
+  {
+   "oz": "03.0007",
+   "category": "unklar",
+   "severity": 2,
+   "title": "Übergang auf Bestand DN 800: Lage und Außendurchmesser offen",
+   "detail": "Ausgeschrieben sind zwei Schnitte an Bestandsrohren DN 800 und zwei Kupplungen mit festem Spannbereich, aber nur 10 m neues Rohr DN 800 und ein Passstück DN 800. Laut Vorbemerkung hat der Bestand DN 600, am Einlauf sitzt ein neues Bauwerk mit Muffe DN 800, der Auslauf endet mit einem Böschungsstück DN 900. Wo die zwei Übergänge liegen, ist nicht erkennbar. Altes Betonrohr und UHPC-Rohr haben bei gleicher Nennweite unterschiedliche Wanddicken; ob beide Außendurchmesser im Spannbereich liegen, lässt sich ohne Bestandsangaben nicht prüfen.",
+   "quote": "Spannbereich von 925 bis 995 mm",
+   "action": "bieterfrage",
+   "question": "Zu Pos. 03.0006 und 03.0007: An welchen Stellen wird an bestehende Betonrohre DN 800 angeschlossen, und welchen Außendurchmesser haben diese Bestandsrohre? Ist der Spannbereich der Kupplung auf Bestandsrohr und neues UHPC-Rohr abgestimmt?"
+  },
+  {
+   "oz": "02.0010",
+   "category": "menge",
+   "severity": 1,
+   "title": "Betonauflager 3 m³ für eine Bodenplatte von 3,6 m²",
+   "detail": "Bei 20 cm Stärke entsprechen 3 m³ einer Fläche von 15 m². Die Bodenplatte des Einlaufbauwerks misst nach Pos. 03.0013 nur 3,00 × 1,20 m, also 3,6 m² bzw. rund 0,7 m³. Entweder ist die Menge um ein Mehrfaches zu hoch, oder es sind weitere Betonauflager (z. B. Schächte, Rohrübergänge) gemeint, die der Text nicht nennt. Bei einer Kleinmenge Transportbeton wirkt sich das auf den Einheitspreis aus.",
+   "quote": "Betonauflager für Einlaufbauwerk, Stärke 20 cm",
+   "action": "bieterfrage",
+   "question": "Zu Pos. 02.0010: 3 m³ bei 20 cm Stärke ergeben 15 m², die Bodenplatte des Einlaufbauwerks hat laut Pos. 03.0013 nur 3,6 m². Für welche Bauteile ist das Betonauflager außerdem vorgesehen, oder ist die Menge zu berichtigen?",
+   "nachtrag": "Mengenunterschreitung über 10 %: Erhöhung des Einheitspreises nach § 2 Abs. 3 Nr. 3 VOB/B verlangen."
+  }
+ ]
+}

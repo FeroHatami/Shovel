@@ -1,0 +1,48 @@
+T0                                                                        000001
+T1Vorbemerkungen Heizung                                                  000002
+T1Die Estricharbeiten erfolgen durch den Estrichleger. Das Funktionsheizen000003
+T1erfolgt nach Freigabe durch die Bauleitung.                             000004
+T9                                                                        000005
+00        83L                                                 1122PPPPI90 000006
+01AZ-2026-14c                             20.11.26                        000007
+02Neubau Ausbildungszentrum mit Werkhalle, Musterstadt                    000008
+08EUR   Euro                                                              000009
+1101       N                                                              000010
+12Heizungsanlagen                                                         000011
+110101     N                                                              000012
+12Fussbodenheizung                                                        000013
+2101010010 NNN         00001240000m2                                      000014
+25Systemd„mmung Rolljet 30 mm liefern und verlegen                        000015
+26   Systemd„mmung als Rolljet-Verbundplatte, Dicke 30 mm,                000016
+26   WLG 040, mit Rasterfolie, auf Rohdecke verlegen. St”sse              000017
+26   verkleben.                                                           000018
+2101010020 NNN         00008200000m                                       000019
+25Heizrohr PE-RT 17 x 2 mm liefern                                        000020
+26   Heizrohr PE-RT 17 x 2,0 mm, sauerstoffdicht, in Ringen               000021
+26   liefern.                                                             000022
+2101010030 NNN         00006900000m                                       000023
+25Heizrohr PE-RT 17 x 2 mm verlegen                                       000024
+26   Heizrohr im Verlegeabstand 15 cm auf Systemd„mmung                   000025
+26   verlegen und mit Tackernadeln befestigen.                            000026
+2101010040 NNN         00000006000St                                      000027
+25Heizkreisverteiler 12-fach                                              000028
+26   Heizkreisverteiler aus Edelstahl mit Durchflussmessern,              000029
+26   12 Heizkreise, im Verteilerschrank montieren.                        000030
+26   Fabrikat: Thermoflux HKV-E                                           000031
+2101010050 NNN         00000960000m                                       000032
+25Randd„mmstreifen 8 mm                                                   000033
+26   Randd„mmstreifen aus PE-Schaum, 8 x 150 mm, mit                      000034
+26   Folienlappen, an allen aufgehenden Bauteilen verlegen.               000035
+2101010060 NNN         00000001000psch                                    000036
+25Druckprobe                                                              000037
+26   Druckprobe der Heizkreise mit Protokoll.                             000038
+2101010070 NNN         00000001000psch                                    000039
+25Funktionsheizen                                                         000040
+26   Funktionsheizen des Estrichs komplett einschl. aller                 000041
+26   Nebenarbeiten.                                                       000042
+2101010080 NNN         00000020000h                                       000043
+25Stundenlohn Monteur                                                     000044
+26   Stundenlohnarbeiten Monteur auf Anordnung.                           000045
+310101                                                                    000046
+3101                                                                      000047
+99                                                                   00008000048

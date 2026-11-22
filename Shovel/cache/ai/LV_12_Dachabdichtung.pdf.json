@@ -1,0 +1,93 @@
+{
+ "docId": "fc8615eb7b36c59b",
+ "fileName": "LV_12_Dachabdichtung.pdf",
+ "model": "claude-fable-5-2 (offline über Claude Code)",
+ "createdAt": "2026-11-21T06:06:49.174Z",
+ "findings": [
+  {
+   "oz": "6.1.70",
+   "category": "widerspruch",
+   "severity": 3,
+   "title": "Dach Büro: Untergrund Porenbeton oder Ortbeton",
+   "detail": "Pos. 6.1.30 nennt für das Bürodach als Vorleistung eine Ortbetondachdecke, die Abdichtungsbahn und das Glasvlies (6.1.60) nennen Porenbeton-Dachplatten. Für die mechanische Befestigung ist das preisbestimmend: In Ortbeton muss jeder Befestiger vorgebohrt werden, in Porenbeton braucht es Spezialschrauben mit anderen Auszugswerten. Bei 180 mm Dämmung plus 20 bis 120 mm Gefälledämmung kommen gestaffelte Befestigerlängen bis rund 300 mm Dämmdicke hinzu.",
+   "quote": "Untergrund: Porenbeton Dachplatten, d = 250 mm",
+   "action": "bieterfrage",
+   "question": "Zu Pos. 6.1.70 (und 6.1.60): Pos. 6.1.30 nennt als Untergrund eine Ortbetondachdecke, Pos. 6.1.60 und 6.1.70 Porenbeton-Dachplatten. Welcher Untergrund liegt auf dem Bürodach vor, und ist die mechanische Befestigung durch den gesamten Dämmaufbau in diesen Untergrund vorgesehen?",
+   "nachtrag": "Weicht der Untergrund vom kalkulierten ab: geänderte Leistung nach § 2 Abs. 5 VOB/B, Mehrkosten vor Ausführung anzeigen."
+  },
+  {
+   "oz": "6.2.50",
+   "category": "widerspruch",
+   "severity": 2,
+   "title": "PVC-P gefordert, eines der Richtfabrikate ist eine FPO-Bahn",
+   "detail": "Die Position verlangt eine PVC-P-Dachbahn. Von den zwei Richtfabrikaten ist eines eine PVC-P-Bahn, das andere eine FPO-Bahn. Die Werkstoffe unterscheiden sich in Fügetechnik, Zubehör und Verträglichkeit mit Bitumen und Polystyrol. Für den Bieter ist offen, ob FPO als gleichwertig gilt; die Bahn muss außerdem zum Zubehör der bauseits gelieferten Abläufe passen.",
+   "quote": "Richtfabrikat: z.B. FDT Rhenofol CV oder Bauder FPO Thermoplan T20",
+   "action": "bieterfrage",
+   "question": "Zu Pos. 6.2.50 (ebenso 6.1.70 und 6.3.52): Gefordert ist eine PVC-P-Bahn, als Richtfabrikat ist auch eine FPO-Bahn genannt. Sind beide Werkstoffe zugelassen, oder ist ausschließlich PVC-P anzubieten?"
+  },
+  {
+   "oz": "6.2.30",
+   "category": "unklar",
+   "severity": 2,
+   "title": "Hallendach ohne Wärmedämmung, Dampfsperre nur als Bedarf",
+   "detail": "Im Titel 6.2 gibt es keine Dämmposition: Auf den Porenbetonplatten folgen Glasvlies und Abdichtungsbahn. Gleichzeitig ist eine Dampfsperre als Bedarfsposition ausgeschrieben, die ohne Dämmschicht darüber bauphysikalisch keinen Zweck hat. Pos. 6.2.150 und 6.2.180 sprechen von wärmegedämmten Gullys und Sekuranten für einen Dachaufbau bis ca. 30 cm; 6.2.180 nennt als Vorleistung Stahlbeton und als Einbauort das Dach Büro. Ob eine Dämmung geplant ist, entscheidet über Befestigerlängen, Aufstockelemente und Anschlusshöhen.",
+   "quote": "Dampfsperrbahn (mit Zulassung), als Verbundfolie, auf Porenbetondachfläche",
+   "action": "bieterfrage",
+   "question": "Zu Pos. 6.2.30: Ist für das Dach der Ausbildungshalle eine Wärmedämmung über den Porenbetonplatten vorgesehen? Falls nein, wozu dient die Dampfsperrbahn, und welche Aufbauhöhe gilt für die Dachgullys (6.2.150) und Sekuranten (6.2.180), deren Text sich auf Stahlbeton und das Dach Büro bezieht?"
+  },
+  {
+   "oz": "6.1.30",
+   "category": "luecke",
+   "severity": 2,
+   "title": "Verweis auf nicht vorhandene Pos. 6.1.80, Lichtkuppelanschluss im Flächenpreis",
+   "detail": "Der Text verweist auf Pos. 6.1.80, die im LV nicht existiert; derselbe Verweis steht in Pos. 6.1.60. Der Anschluss an die Lichtkuppel soll im Quadratmeterpreis enthalten sein, obwohl Pos. 6.1.130 die Anarbeitung an die Abdichtung ebenfalls nennt. Zusätzlich ist der Ausgleich von Unebenheiten mit Heißbitumen bis ca. 2 cm ohne Flächenanteil eingerechnet, was vom Zustand der Rohdecke abhängt.",
+   "quote": "einschl. Dachanschluss an Lichtkuppel über Treppenhaus, siehe auch Pos. 6.1.80",
+   "action": "bieterfrage",
+   "question": "Zu Pos. 6.1.30: Die Position verweist auf Pos. 6.1.80, die im LV fehlt. Welchen Inhalt hat diese Position, und ist der Anschluss an die Lichtkuppel in Pos. 6.1.30/6.1.60 oder in Pos. 6.1.130 zu kalkulieren? Von welchem Flächenanteil ist für den Ausgleich mit Heißbitumen auszugehen?",
+   "surchargePct": 3
+  },
+  {
+   "oz": "6.1.130",
+   "category": "widerspruch",
+   "severity": 2,
+   "title": "Lichtkuppel starr, zugleich Dachausstieg und RWA mit Motoröffner",
+   "detail": "Die Kuppel ist als starr mit starrem Beschlag beschrieben, soll aber als Dachausstieg dienen und einen RWA-Motoröffner erhalten. Ein Dachausstieg mit Scherentreppe (Pos. 6.1.160) braucht einen Öffnungswinkel und eine Bedienung für den Personenausstieg, eine RWA einen geprüften Antrieb mit Zentrale, Auslösetastern und Verkabelung. Steuerung und Elektroanschluss sind nicht beschrieben.",
+   "quote": "Beschlag: starr",
+   "action": "bieterfrage",
+   "question": "Zu Pos. 6.1.130: Die Lichtkuppel ist als starr beschrieben, soll aber als Dachausstieg und RWA mit Motoröffner dienen. Welche Öffnungsart ist anzubieten, und wer liefert RWA-Zentrale, Auslösetaster, Verkabelung und Elektroanschluss?",
+   "nachtrag": "RWA-Zentrale und Verkabelung ohne Position: zusätzliche Leistung nach § 2 Abs. 6 VOB/B, vor Ausführung ankündigen."
+  },
+  {
+   "oz": "6.1.40",
+   "category": "unklar",
+   "severity": 2,
+   "title": "Dämmung für PV-Lasten, Druckfestigkeit und Lasten nicht angegeben",
+   "detail": "Die Dämmung soll eine PV-Anlage tragen können. Druckspannung bzw. Anwendungstyp (z. B. DAA dh/ds) sowie Art und Lasten der PV-Aufständerung fehlen. Die Druckfestigkeitsklasse bestimmt den Materialpreis der 275 m² Grund- und Gefälledämmung. Offen ist auch, ob die PV-Lasten im Windsognachweis (Pos. 6.1.10) zu berücksichtigen sind.",
+   "quote": "auch zur Lastaufnahme einer PV-Anlage geeignet",
+   "action": "bieterfrage",
+   "question": "Zu Pos. 6.1.40: Welche Druckfestigkeit bzw. welcher Anwendungstyp der EPS-Dämmung wird gefordert, und welche Lasten (Flächen- und Punktlasten, Aufständerungssystem) der PV-Anlage sind anzusetzen? Sind diese Lasten im Nachweis nach Pos. 6.1.10 zu berücksichtigen?"
+  },
+  {
+   "oz": "6.3.52",
+   "category": "luecke",
+   "severity": 2,
+   "title": "Terrasse: Anschlüsse, Schutzlage und Entwässerung ohne Mengen und Positionen",
+   "detail": "Anschlüsse an aufgehende Bauteile sind bei nur 30 m² in den Flächenpreis eingerechnet, ohne Länge, Anschlusshöhe oder Angaben zu Türschwellen. Für die Terrasse gibt es keinen Ablauf, keinen Randabschluss und keine Schutzlage über der Bahn; Pos. 6.3.60 nennt Dränage und Trennschicht nur als Unterlage, ohne sie als Lieferleistung zu beschreiben. Die mechanische Befestigung unter einem Plattenbelag im Splittbett und die Druckfestigkeit der 80 mm EPS bei 4 kN/m² sind ebenfalls zu klären.",
+   "quote": "einschl. Anschlüße an aufgehende Bauteile",
+   "action": "bieterfrage",
+   "question": "Zu Pos. 6.3.52 und 6.3.60: Welche Länge und Höhe haben die Anschlüsse an aufgehende Bauteile und Türelemente? Wie wird die Terrasse entwässert, und sind Schutzlage, Dränage und Trennschicht unter dem Splittbett Bestandteil der Pos. 6.3.60?",
+   "surchargePct": 5
+  },
+  {
+   "oz": "6.4.10",
+   "category": "vertrag",
+   "severity": 2,
+   "title": "Wartung über 5 Jahre als Pauschale ohne Leistungsbeschreibung",
+   "detail": "Die Position bindet den Bieter für fünf Jahre, ohne Umfang, Häufigkeit der Begehungen, betroffene Dachflächen, Prüfung der Anschlagpunkte und RWA oder Preisgleitung zu nennen. Offen ist auch, ob Kleinreparaturen enthalten sind und wann die Vergütung fällig wird. Lohnsteigerungen über fünf Jahre sind in einer Pauschale ohne Gleitklausel ein nicht schätzbares Risiko.",
+   "quote": "Wartung Dach über 5 Jahre",
+   "action": "bieterfrage",
+   "question": "Zu Pos. 6.4.10: Welche Leistungen umfasst die Wartung (Anzahl der Begehungen pro Jahr, Dachflächen, Reinigung der Abläufe, Prüfung der Anschlagpunkte und der RWA, Kleinreparaturen)? Wird ein gesonderter Wartungsvertrag geschlossen, wie wird abgerechnet, und ist eine Preisanpassung vorgesehen?",
+   "basis": "VOB/A § 7 Abs. 1 Nr. 3"
+  }
+ ]
+}

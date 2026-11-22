@@ -1,0 +1,97 @@
+{
+ "docId": "7f92d59114d315a0",
+ "fileName": "LV_18_Estrich.pdf",
+ "model": "claude-fable-5-2 (offline über Claude Code)",
+ "createdAt": "2026-11-21T06:06:48.318Z",
+ "findings": [
+  {
+   "oz": "11.4.10",
+   "category": "widerspruch",
+   "severity": 3,
+   "title": "Dämmdicke: Kurztext 80 mm, Langtext 120 mm",
+   "detail": "Der Kurztext nennt 80 mm, der Langtext eine Plattendicke von 120 mm. Mit dem Estrich der Pos. 11.4.60 (75 mm) ergäben 120 mm eine Aufbauhöhe von 195 mm; die Nachbarflächen (90 mm Dämmung + 65 mm Estrich) kommen auf 155 mm, und die Aussparungspositionen nennen eine Konstruktionshöhe unter 185 mm. Vermutlich gelten 80 mm, der Materialeinsatz unterscheidet sich aber um die Hälfte. Pos. 11.4.20 verweist mit „wie Position zuvor“ auf diesen Text.",
+   "quote": "Plattendicke: 120 mm",
+   "action": "bieterfrage",
+   "question": "Zu Pos. 11.4.10: Der Kurztext nennt eine Dämmdicke von 80 mm, der Langtext eine Plattendicke von 120 mm. Welche Dicke ist anzubieten, und welche Gesamtaufbauhöhe gilt für Archiv, Lager, ELT und Flur im UG?",
+   "nachtrag": "Wird nach Auftrag eine andere als die kalkulierte Dicke angeordnet: geänderte Leistung nach § 2 Abs. 5 VOB/B, Mehrkosten vor Ausführung anzeigen."
+  },
+  {
+   "oz": "11.6.30",
+   "category": "widerspruch",
+   "severity": 2,
+   "title": "Estrichdicke Podeste: Kurztext 60 mm, Langtext 65 mm",
+   "detail": "Der Kurztext nennt 60 mm, der Langtext 65 mm Estrichdicke. Bei 5 kN/m² Flächenlast und F5 auf Trittschalldämmung ist die Dicke für die Bemessung nach DIN 18560-2 maßgebend; außerdem hängt die Anschlusshöhe an die Treppenläufe davon ab. Die Menge ist klein, die Höhenfrage betrifft aber alle Podeste.",
+   "quote": "Estrichdicke: 65 mm",
+   "action": "bieterfrage",
+   "question": "Zu Pos. 11.6.30: Der Kurztext nennt eine Estrichdicke von 60 mm, der Langtext 65 mm. Welche Dicke ist auf den Zwischenpodesten auszuführen?"
+  },
+  {
+   "oz": "11.3.30",
+   "category": "unklar",
+   "severity": 3,
+   "title": "Heizestrich 65 mm bei 5 kN Einzellast: Rohrüberdeckung und Aufheizen nicht geregelt",
+   "detail": "Die Position beschreibt einen Heizestrich, nennt aber dieselbe Dicke wie die unbeheizten Estriche. Nach DIN 18560-2 ist bei Heizestrichen der Bauart A der Rohraußendurchmesser zur Nenndicke hinzuzurechnen; 65 mm sind für F5 bei 5 kN/m² bereits die Nenndicke ohne Rohr, und die Tabellen decken Einzellasten nur bis 4 kN. Offen ist, ob 65 mm die Gesamtdicke oder die Rohrüberdeckung meint. Funktions- und Belegreifheizen, CM-Messung und Fugen in den Türdurchgängen sind keiner Position und keinem Gewerk zugeordnet.",
+   "quote": "Estrichdicke: 65 mm Festigkeitsklasse: C35 Biegezugfestigkeit: min. F5 Nutzlast: Einzellast 5 kN, Flächenlast 5 kN/m2",
+   "action": "bieterfrage",
+   "question": "Zu Pos. 11.3.30: Ist die Estrichdicke von 65 mm als Gesamtdicke oder als Überdeckung über den Heizrohren zu verstehen, und welcher Rohraußendurchmesser ist vorgesehen? Wer führt das Funktions- und Belegreifheizen sowie die CM-Messung durch, und liegt ein Fugenplan für die beheizten Flächen vor?",
+   "basis": "DIN 18560-2 (Estriche auf Dämmschichten, Heizestriche)",
+   "nachtrag": "Wird eine größere Dicke angeordnet: § 2 Abs. 5 VOB/B. Bedenken gegen die vorgegebene Dicke nach § 4 Abs. 3 VOB/B schriftlich anmelden."
+  },
+  {
+   "oz": "",
+   "category": "vertrag",
+   "severity": 2,
+   "title": "Fugenplanung wird dem AN überlassen, Fugenpositionen fehlen für EG bis 2. OG",
+   "detail": "Der AN soll sich selbst nach den Bauteilbewegungen erkundigen und die Flächen danach durch Fugen unterteilen. Ein Fugenplan ist Sache der Planung. Fugenprofile sind nur im UG mit je 10 m ausgeschrieben; für 780 m² in EG bis 2. OG gibt es weder eine Fugen- noch eine Trennschienenposition, obwohl die Estrichpositionen Trennschienen an Belagswechseln verlangen. Der Umfang ist ohne Fugenplan nicht kalkulierbar.",
+   "quote": "Der AN erkundigt sich insoweit unaufgefordert beim AG nach den zu erwartenden Bauteilbewegungen",
+   "action": "bieterfrage",
+   "question": "Zu Pos. 11.5.50 und zur Vorbemerkung ZTV Estricharbeiten: Liegt ein Fugenplan vor? Welche Längen an Bewegungsfugen, Scheinfugen und Trennschienen sind in EG bis 2. OG auszuführen, und über welche Position werden sie vergütet?",
+   "basis": "DIN 18560-2 (Fugenplan durch den Planer), VOB/A § 7 Abs. 1 Nr. 3",
+   "nachtrag": "Fugenprofile und Trennschienen ohne Position: zusätzliche Leistung nach § 2 Abs. 6 VOB/B, Anspruch vor Ausführung ankündigen."
+  },
+  {
+   "oz": "",
+   "category": "vertrag",
+   "severity": 2,
+   "title": "Risssanierung in unbekanntem Umfang ohne Position",
+   "detail": "Der AN soll vor der Belagsverlegung alle Fugen und Risse aufweiten, vergießen und bei Bedarf vernadeln. Eine Position dafür gibt es nicht. Rissbildung hängt auch von Bauklima, Aufheizen und Fugenplanung ab, also von Umständen außerhalb des Einflusses des Estrichlegers. Das planmäßige Schließen von Scheinfugen ist eine Leistung, die nach Länge ausgeschrieben werden müsste.",
+   "quote": "aufzuweiten, mit Kunstharz auszugießen und erforderlichenfalls zu vernadeln.",
+   "action": "zuschlag",
+   "question": "Zur Vorbemerkung ZTV Estricharbeiten: Über welche Position wird das kraftschlüssige Schließen von Scheinfugen und Rissen vergütet, und von welcher Länge ist auszugehen? Gilt die Regelung auch für Risse, die der AN nicht zu vertreten hat?",
+   "basis": "VOB/A § 7 Abs. 1 Nr. 3",
+   "surchargePct": 2
+  },
+  {
+   "oz": "11.5.70",
+   "category": "vertrag",
+   "severity": 2,
+   "title": "Belegreife nach 10 Tagen zugesagt, Trocknungsbedingungen liegen nicht beim AN",
+   "detail": "Die Zulage verlangt eine Verlegereife nach 10 Tagen für dampfdichte Beläge, allein über ein Zusatzmittel. Bei 65 bis 75 mm Dicke hängt die Belegreife von Raumklima, Lüftung und Beheizung des Gebäudes ab, die der Estrichleger nicht steuert. Ein Grenzwert der Restfeuchte und das Messverfahren fehlen. Wird der Termin verfehlt, drohen Ansprüche aus Verzug der Folgegewerke.",
+   "quote": "einer Verlegereife nach 10 Tagen, für dampfdichte Bodenbeläge als",
+   "action": "bieterfrage",
+   "question": "Zu Pos. 11.5.70 (ebenso 11.3.70 und 11.4.100): Welcher Restfeuchtewert (CM-%) gilt als Verlegereife, und unter welchen bauseits sicherzustellenden Klimabedingungen (Temperatur, Luftfeuchte, geschlossene Gebäudehülle) ist die Frist von 10 Tagen einzuhalten? Ist anstelle eines Zusatzmittels ein Schnellzement-System zugelassen?",
+   "surchargePct": 5
+  },
+  {
+   "oz": "11.4.40",
+   "category": "schnittstelle",
+   "severity": 2,
+   "title": "UG: keine Abdichtung oder Dampfbremse unter der Dämmung",
+   "detail": "Im UG liegt die EPS-Ausgleichsschicht nach dem LV direkt auf der Betonoberfläche; ausgeschrieben ist nur die PE-Folie über der Dämmung. Eine Abdichtung oder Dampfbremse auf der erdberührten Bodenplatte kommt im LV nicht vor. Offen ist, ob sie ein anderes Gewerk vorab herstellt oder ob sie fehlt. Bei dampfdichten Belägen (Kautschuk) wäre ein Feuchteschaden am Estrich ein Streitfall.",
+   "quote": "Abdeckung der Dämmschicht mit einer Lage Kunststofffolie",
+   "action": "bieterfrage",
+   "question": "Zu Pos. 11.4.10 bis 11.4.40: Wird auf der Bodenplatte im UG vor Verlegung der Dämmung bauseits eine Abdichtung bzw. Dampfbremse hergestellt, oder ist diese Leistung vom AN Estrich zu erbringen? Falls ja, über welche Position?",
+   "nachtrag": "Wird die Abdichtung nachträglich vom AN verlangt: zusätzliche Leistung nach § 2 Abs. 6 VOB/B, vor Ausführung ankündigen."
+  },
+  {
+   "oz": "",
+   "category": "unklar",
+   "severity": 1,
+   "title": "Mineralwolle-Randstreifen: betroffene Räume nicht benannt",
+   "detail": "Randdämmstreifen sind in die Estrichpositionen eingerechnet. Die Vorbemerkung verlangt Mineralwolle in Räumen mit Brandschutzanforderung, nennt die Räume aber nicht; nur Pos. 11.6.30 (Podeste) fordert das ausdrücklich. Pos. 11.5.50 umfasst auch Flure und Treppenhaus. Der Anteil nicht brennbarer Randstreifen an 780 m² ist damit offen.",
+   "quote": "sind aus Mineralwolle herzustellen.",
+   "action": "bieterfrage",
+   "question": "Zur Vorbemerkung ZTV Estricharbeiten und zu Pos. 11.5.50: In welchen Räumen bzw. auf welcher Länge sind Randdämmstreifen aus Mineralwolle auszuführen?"
+  }
+ ]
+}

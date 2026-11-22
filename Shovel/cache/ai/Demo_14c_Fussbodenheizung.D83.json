@@ -1,0 +1,64 @@
+{
+ "docId": "1574d038bb403cb1",
+ "fileName": "Demo_14c_Fussbodenheizung.D83",
+ "model": "claude-fable-5-2 (offline über Claude Code)",
+ "createdAt": "2026-11-20T23:18:40.901Z",
+ "findings": [
+  {
+   "oz": "01.01.0030",
+   "category": "menge",
+   "severity": 3,
+   "title": "Verlegemenge Heizrohr deutlich kleiner als Liefermenge und Flächenbedarf",
+   "detail": "Geliefert werden sollen 8200 m Heizrohr, verlegt nur 6900 m. Bei 1240 m2 Systemdämmung und Verlegeabstand 15 cm liegt der Rohrbedarf ohne Anbindeleitungen bereits in der Größenordnung der Liefermenge. Die Verlegemenge ist damit voraussichtlich um rund 1300 m zu niedrig; Anbindeleitungen zu den Verteilern sind in keiner der beiden Mengen erkennbar berücksichtigt.",
+   "quote": "Heizrohr im Verlegeabstand 15 cm auf Systemdämmung",
+   "action": "bieterfrage",
+   "question": "Zu Pos. 01.01.0030: Die Verlegemenge (6900 m) weicht von der Liefermenge in Pos. 01.01.0020 (8200 m) ab und liegt unter dem Bedarf, der sich aus 1240 m2 bei 15 cm Verlegeabstand ergibt. Welche Menge ist richtig, und sind die Anbindeleitungen zu den Verteilern enthalten?",
+   "nachtrag": "Bei Mengenabweichung über 10 % kann nach § 2 Abs. 3 VOB/B auf Verlangen ein neuer Einheitspreis vereinbart werden; Mengenermittlung des Bieters dokumentieren."
+  },
+  {
+   "oz": "01.01.0040",
+   "category": "luecke",
+   "severity": 2,
+   "title": "Verteilerschränke, Stellantriebe, Regelung und Anschlüsse fehlen",
+   "detail": "Die Verteiler sollen „im Verteilerschrank“ montiert werden, eine Position für die Schränke (Auf-/Unterputz, Größe) gibt es nicht. Ebenso fehlen Klemmverschraubungen für die 72 Heizkreise, Stellantriebe, Raumtemperaturregelung, Absperr-/Regulierarmaturen und der Anschluss an die Zuleitung. Offen ist, ob diese Teile bauseits vorhanden, in anderen Titeln enthalten oder hier einzurechnen sind.",
+   "quote": "12 Heizkreise, im Verteilerschrank montieren.",
+   "action": "bieterfrage",
+   "question": "Zu Pos. 01.01.0040: Werden die Verteilerschränke bauseits gestellt oder sind sie zu liefern (Bauart, Größe)? In welchen Positionen sind Klemmverschraubungen, Stellantriebe, Einzelraumregelung und der Anschluss der Verteiler an die Zuleitungen enthalten?",
+   "nachtrag": "Wird die Leistung später verlangt: zusätzliche Leistung nach § 2 Abs. 6 VOB/B; der Vergütungsanspruch muss dem Auftraggeber vor Beginn der Ausführung angekündigt werden."
+  },
+  {
+   "oz": "01.01.0070",
+   "category": "schnittstelle",
+   "severity": 2,
+   "title": "Funktionsheizen: Wärmequelle, Dauer, Abschnitte und Belegreifheizen offen",
+   "detail": "Das Funktionsheizen ist pauschal ausgeschrieben und soll laut Vorbemerkung erst nach Freigabe der Bauleitung erfolgen. Nicht geregelt ist, ob der Wärmeerzeuger zu diesem Zeitpunkt betriebsbereit ist oder ein mobiles Heizgerät gestellt werden muss, wer die Energiekosten trägt, in wie vielen Abschnitten (sechs Verteiler, EG/OG) geheizt wird und ob ein anschließendes Belegreifheizen mit Protokoll verlangt wird. Bei Schnellestrich (im Estrich-LV als Bedarf vorgesehen) gelten zudem andere Aufheizzeiten.",
+   "quote": "Funktionsheizen des Estrichs komplett",
+   "basis": "DIN EN 1264-4 (Funktionsheizen); VOB/A § 7 Abs. 1 Nr. 1",
+   "action": "bieterfrage",
+   "question": "Zu Pos. 01.01.0070: Steht für das Funktionsheizen der endgültige Wärmeerzeuger zur Verfügung oder ist eine mobile Heizzentrale einzurechnen? Wer trägt die Energiekosten? In wie vielen Abschnitten ist zu heizen, und ist ein Belegreifheizen zusätzlich geschuldet?",
+   "nachtrag": "Mobile Heizzentrale, zusätzliche Aufheizvorgänge oder Belegreifheizen als zusätzliche Leistung nach § 2 Abs. 6 VOB/B vor Ausführung ankündigen."
+  },
+  {
+   "oz": "01.01.0010",
+   "category": "unklar",
+   "severity": 2,
+   "title": "Systemdämmung: Belastbarkeit und Deckenaufbau EG/OG nicht angegeben",
+   "detail": "Die Dämmung ist nur mit Dicke und WLG beschrieben. Es fehlen die für die Auswahl des Rolljet-Typs maßgeblichen Angaben: Verkehrslast des Estrichs, zulässige Zusammendrückbarkeit, Trittschallanforderung (dynamische Steifigkeit). Offen ist auch, ob die Fläche im EG auf der Bodenplatte liegt und dort Abdichtung bzw. Zusatzdämmung durch andere erbracht wird oder ob 30 mm WLG 040 dort tatsächlich der gesamte Aufbau sind. Je nach Typ unterscheiden sich die Materialkosten spürbar.",
+   "quote": "WLG 040, mit Rasterfolie, auf Rohdecke verlegen. Stösse",
+   "basis": "DIN 18560-2 (Anforderungen an Dämmschichten unter schwimmenden Estrichen)",
+   "action": "bieterfrage",
+   "question": "Zu Pos. 01.01.0010: Für welche Nutzlast ist die Systemdämmung auszulegen und welche Zusammendrückbarkeit bzw. dynamische Steifigkeit wird gefordert? Gilt der Aufbau gleichermaßen für die Bodenplatte im EG, und wer erbringt dort Abdichtung und gegebenenfalls Zusatzdämmung?",
+   "nachtrag": "Bei späterer Festlegung abweichend von der Kalkulationsannahme: geänderte Leistung nach § 2 Abs. 5 VOB/B; Mehrkosten vor Ausführung anzeigen und Kalkulationsannahme im Angebotsbegleitschreiben dokumentieren."
+  },
+  {
+   "oz": "01.01.0060",
+   "category": "schnittstelle",
+   "severity": 1,
+   "title": "Druckprobe: Prüfmedium und Druckhaltung während des Estricheinbaus nicht geregelt",
+   "detail": "Die Druckprobe ist pauschal ohne Angabe von Prüfmedium, Prüfdruck und Anzahl der Abschnitte beschrieben. Da der Estrich durch ein anderes Gewerk eingebracht wird, bleibt offen, wer die Heizkreise während des Estricheinbaus unter Druck hält und überwacht und ob bei Frostgefahr Frostschutzmaßnahmen oder eine Prüfung mit Luft verlangt werden. Mehrfache Anfahrten je Estrichabschnitt sind in einer Pauschale schwer abzuschätzen.",
+   "quote": "Druckprobe der Heizkreise mit Protokoll.",
+   "action": "hinweis",
+   "question": "Zu Pos. 01.01.0060: Mit welchem Medium und in wie vielen Abschnitten ist die Druckprobe durchzuführen, und wer hält die Heizkreise während des Estricheinbaus unter Druck?"
+  }
+ ]
+}

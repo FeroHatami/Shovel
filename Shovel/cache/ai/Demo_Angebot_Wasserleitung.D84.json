@@ -1,0 +1,87 @@
+{
+ "docId": "e0e02f63102d1bf0",
+ "fileName": "Demo_Angebot_Wasserleitung.D84",
+ "model": "claude-fable-5-2 (offline über Claude Code)",
+ "createdAt": "2026-11-20T23:18:41.957Z",
+ "findings": [
+  {
+   "oz": "03.01.0020",
+   "category": "menge",
+   "severity": 3,
+   "title": "Verlegelänge 2900 m gegenüber 3200 m Rohrlieferung und Druckprüfung",
+   "detail": "Geliefert und druckgeprüft werden 3200 m, verlegt nur 2900 m. Die Differenz von 300 m ist nicht erklärt (anderes Verlegeverfahren, Vorratsmenge oder Mengenfehler?). Für die Kalkulation von Verlegeleistung und Bauzeit ist die tatsächliche Trassenlänge maßgeblich.",
+   "quote": "Rohre DN 250 im Rohrgraben verlegen.",
+   "action": "bieterfrage",
+   "question": "Zu Pos. 03.01.0020: Die Verlegemenge (2900 m) weicht von der Liefermenge in Pos. 03.01.0010 und der Druckprüfung in Pos. 03.01.0040 (je 3200 m) ab. Welche Trassenlänge ist richtig?",
+   "nachtrag": "Bei Mengenabweichung über 10 % kann nach § 2 Abs. 3 VOB/B auf Verlangen ein neuer Einheitspreis vereinbart werden; Mengenermittlung des Bieters dokumentieren."
+  },
+  {
+   "oz": "02.01.0040",
+   "category": "luecke",
+   "severity": 3,
+   "title": "Grabentiefe bis 1,75 m ohne Verbau- und Wasserhaltungsposition",
+   "detail": "Bei Grabentiefen über 1,25 m ist nach DIN 4124 zu verbauen oder zu böschen. Das LV enthält keine Verbauposition und keine Angabe, ob geböscht werden darf; die Aushubmenge spricht für einen schmalen, senkrechten Graben. Ebenso fehlen Angaben und Positionen zur Wasserhaltung, und die Homogenbereiche 1 und 2 sind nicht beschrieben. Verbau über rund 2900 m Trasse ist ein wesentlicher Kostenanteil.",
+   "quote": "Rohrgrabenaushub Homogenbereich 2, Tiefe bis 1,75 m.",
+   "basis": "DIN 4124 (Verbau bzw. Böschung ab 1,25 m Grabentiefe); VOB/A § 7 Abs. 1 Nr. 6",
+   "action": "bieterfrage",
+   "question": "Zu Pos. 02.01.0040: Für Grabentiefen bis 1,75 m ist keine Verbauposition enthalten. Ist ein Grabenverbau vorgesehen und in welcher Position wird er vergütet, oder liegt der Aushubmenge ein geböschter Graben zugrunde? Wir bitten zudem um die Beschreibung der Homogenbereiche 1 und 2 und um Angaben zum Grundwasser.",
+   "nachtrag": "Wird die Leistung später verlangt: zusätzliche Leistung nach § 2 Abs. 6 VOB/B; der Vergütungsanspruch muss dem Auftraggeber vor Beginn der Ausführung angekündigt werden."
+  },
+  {
+   "oz": "03.01.0010",
+   "category": "luecke",
+   "severity": 3,
+   "title": "Formstücke, Armaturen, Einbindungen und Hausanschlüsse fehlen",
+   "detail": "Der Rohrleitungsbau besteht nur aus Rohr liefern, verlegen, Muffenschutz und Druckprüfung. Für die Erneuerung einer Ortsnetzleitung fehlen Formstücke (Bögen, T-Stücke), Schieber und Hydranten, Einbindungen in den Bestand, das Umbinden von Hausanschlüssen sowie Angaben zur Muffenart (längskraftschlüssig oder Widerlager). Diese Leistungen machen erfahrungsgemäß einen erheblichen Teil der Rohrbaukosten aus.",
+   "quote": "Muffendruckrohre aus duktilem Gusseisen DN 250, PN 10,",
+   "action": "bieterfrage",
+   "question": "Zu Pos. 03.01.0010: In welchen Positionen sind Formstücke, Armaturen (Schieber, Hydranten), Einbindungen in das Bestandsnetz und das Umbinden der Hausanschlüsse zu erfassen? Welche Muffenverbindung (längskraftschlüssig) und welcher Außen- und Innenschutz der Rohre sind gefordert?",
+   "nachtrag": "Wird die Leistung später verlangt: zusätzliche Leistung nach § 2 Abs. 6 VOB/B; der Vergütungsanspruch muss dem Auftraggeber vor Beginn der Ausführung angekündigt werden."
+  },
+  {
+   "oz": "03.01.0040",
+   "category": "luecke",
+   "severity": 2,
+   "title": "Spülung, Desinfektion, Wasserproben und Notversorgung nicht ausgeschrieben",
+   "detail": "Nach der Druckprüfung sind Trinkwasserleitungen zu spülen, zu desinfizieren und mikrobiologisch freizugeben, bevor sie in Betrieb gehen. Dafür gibt es keine Position. Bei einer Erneuerung im Bestand fehlen außerdem Angaben zur Aufrechterhaltung der Versorgung (Notversorgung, Bauabschnitte) und zum Umgang mit der Altleitung (Stilllegen, Ausbau, Material).",
+   "quote": "Druckprüfung der Leitung nach DVGW W 400-2.",
+   "basis": "DVGW W 291 (Reinigung und Desinfektion von Wasserverteilungsanlagen)",
+   "action": "bieterfrage",
+   "question": "Zu Pos. 03.01.0040: Wer erbringt Spülung, Desinfektion und Probenahme mit Freigabe, und über welche Position werden sie vergütet? In wie vielen Prüfabschnitten ist zu prüfen? Ist eine Notwasserversorgung vorzuhalten, und was geschieht mit der Altleitung?",
+   "nachtrag": "Wird die Leistung später verlangt: zusätzliche Leistung nach § 2 Abs. 6 VOB/B; der Vergütungsanspruch muss dem Auftraggeber vor Beginn der Ausführung angekündigt werden."
+  },
+  {
+   "oz": "02.03.0020",
+   "category": "vertrag",
+   "severity": 2,
+   "title": "Asphaltentsorgung ohne Angabe zur Schadstoffbelastung (pechhaltig?)",
+   "detail": "Der Aufbruch soll einschließlich Entsorgung angeboten werden, ohne dass eine Verwertungsklasse oder ein Untersuchungsergebnis (PAK-Gehalt, pechhaltige Schichten) genannt ist. Die Entsorgungskosten unterscheiden sich zwischen unbelastetem Ausbauasphalt und pechhaltigem Straßenaufbruch um ein Vielfaches. Beim Boden ist die Materialklasse dagegen angegeben (Pos. 02.01.0090).",
+   "quote": "Bituminösen Oberbau aufbrechen und entsorgen.",
+   "basis": "VOB/A § 7 Abs. 1 Nr. 3",
+   "action": "bieterfrage",
+   "question": "Zu Pos. 02.03.0020: Liegen Untersuchungen des Asphaltoberbaus auf pechhaltige Bestandteile (PAK) vor? Welche Verwertungsklasse ist der Kalkulation zugrunde zu legen?",
+   "nachtrag": "Kalkulationsannahme (unbelasteter Ausbauasphalt) im Angebot benennen; bei pechhaltigem Material Mehrkosten vor der Entsorgung anzeigen, Vergütungsanpassung nach § 2 Abs. 5 VOB/B."
+  },
+  {
+   "oz": "01.01.0040",
+   "category": "unklar",
+   "severity": 2,
+   "title": "Verkehrssicherung pauschal ohne Angaben zu Umfang, Phasen und Dauer",
+   "detail": "Die Verkehrssicherung ist für eine Linienbaustelle von rund 3 km mit einer einzigen Pauschale und nur dem Verweis auf die RSA beschrieben. Es fehlen Angaben zu Straßenkategorie, Verkehrsführung (halbseitige Sperrung, Vollsperrung, Lichtsignalanlage), Anzahl der Bauphasen und Umsetzungen, Umleitungsbeschilderung und zur verkehrsrechtlichen Anordnung. Als Pauschale über die gesamte Bauzeit ist das nicht sicher zu bewerten.",
+   "quote": "Verkehrssicherung nach RSA.",
+   "basis": "VOB/A § 7 Abs. 1 Nr. 1 und Nr. 2",
+   "action": "bieterfrage",
+   "question": "Zu Pos. 01.01.0040: Welche Verkehrsführung (halbseitig mit Lichtsignalanlage, Vollsperrung mit Umleitung) ist in welchen Abschnitten vorgesehen, wie viele Bauphasen sind zu sichern, und liegen Verkehrszeichenpläne vor? Wer beantragt die verkehrsrechtliche Anordnung?"
+  },
+  {
+   "oz": "01.01.0060",
+   "category": "unklar",
+   "severity": 1,
+   "title": "Beweissicherung pauschal ohne Angabe von Objekten und Verfahren",
+   "detail": "Die Beweissicherung ist als Pauschale ohne Anzahl der Gebäude, Einfriedungen und Verkehrsflächen und ohne Vorgabe zum Verfahren (Fotodokumentation durch den AN oder Gutachten eines Sachverständigen) ausgeschrieben. Der Aufwand hängt direkt von der Zahl der Anlieger entlang der Trasse ab.",
+   "quote": "Beweissicherung vor Baubeginn.",
+   "action": "bieterfrage",
+   "question": "Zu Pos. 01.01.0060: Wie viele Gebäude und Anlagen sind in die Beweissicherung einzubeziehen, und in welcher Form (Fotodokumentation des AN oder Sachverständigengutachten) ist sie durchzuführen?"
+  }
+ ]
+}

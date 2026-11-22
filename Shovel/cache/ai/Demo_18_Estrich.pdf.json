@@ -1,0 +1,87 @@
+{
+ "docId": "9699f1f9c18abc1a",
+ "fileName": "Demo_18_Estrich.pdf",
+ "model": "claude-fable-5-2 (offline über Claude Code)",
+ "createdAt": "2026-11-20T23:18:41.371Z",
+ "findings": [
+  {
+   "oz": "11.2.30",
+   "category": "menge",
+   "severity": 3,
+   "title": "Verbundestrich in m3 ausgeschrieben – Menge passt nicht zu 50 mm Dicke",
+   "detail": "85 m3 Verbundestrich entsprächen bei 50 mm Dicke rund 1700 m2 Technikraumfläche und damit mehr als der gesamten Heizestrichfläche des Gebäudes (1240 m2). Vermutlich sind 85 m2 gemeint. Einheit und Menge entscheiden hier über eine Größenordnung im Positionswert.",
+   "quote": "Zementestrich CT-C30-F5 im Verbund auf Rohbetondecke, Dicke 50",
+   "action": "bieterfrage",
+   "question": "Zu Pos. 11.2.30: Die Position ist mit 85 m3 ausgeschrieben; bei 50 mm Estrichdicke ergäbe das rund 1700 m2 Technikraumfläche. Ist die Abrechnungseinheit m2 gemeint, und welche Fläche ist richtig?",
+   "nachtrag": "Bei Mengenabweichung über 10 % kann nach § 2 Abs. 3 VOB/B auf Verlangen ein neuer Einheitspreis vereinbart werden; Mengenermittlung des Bieters dokumentieren."
+  },
+  {
+   "oz": "11.2.20",
+   "category": "widerspruch",
+   "severity": 3,
+   "title": "Heizestrich 65 mm CT-F4 bei 5 kN/m2 Nutzlast voraussichtlich zu dünn",
+   "detail": "Für schwimmende Zementestriche der Biegezugfestigkeitsklasse F4 sieht DIN 18560-2 bei Flächenlasten bis 5 kN/m2 deutlich größere Nenndicken vor als bei Wohnraumlasten (Größenordnung 75 mm), bei Heizestrichen mit Rohren im Estrich zuzüglich Rohraußendurchmesser. Mit „Estrichdicke: 65 mm“ ist außerdem nicht gesagt, ob die Gesamtdicke oder die Rohrüberdeckung gemeint ist. Der Unterschied betrifft Materialmenge, Trocknungszeit und Aufbauhöhe. Bei unveränderter Ausschreibung wären Bedenken anzumelden.",
+   "quote": "Estrichdicke: 65 mm",
+   "basis": "DIN 18560-2 (Nenndicken schwimmender Estriche in Abhängigkeit von der Nutzlast); § 4 Abs. 3 VOB/B (Bedenkenanzeige)",
+   "action": "bieterfrage",
+   "question": "Zu Pos. 11.2.20: Ist mit der Estrichdicke von 65 mm die Gesamtdicke oder die Rohrüberdeckung gemeint? Wir bitten um Bestätigung, dass die Dicke für CT-C25-F4 bei 5 kN/m2 Flächenlast als Heizestrich nach DIN 18560-2 nachgewiesen ist, bzw. um Angabe der auszuführenden Nenndicke.",
+   "nachtrag": "Wird eine größere Estrichdicke oder höhere Festigkeitsklasse angeordnet: geänderte Leistung nach § 2 Abs. 5 VOB/B; Bedenken gegen die ausgeschriebene Dicke schriftlich vor Ausführung anzeigen."
+  },
+  {
+   "oz": "11.2.10",
+   "category": "schnittstelle",
+   "severity": 2,
+   "title": "PE-Trennlage auf Systemdämmung mit Fußbodenheizung nicht ausführbar bzw. doppelt",
+   "detail": "Die Systemdämmung (Rolljet mit Deckfolie) verlegt der Heizungsbauer; darauf werden die Heizrohre befestigt. Eine PE-Folie des Estrichlegers „auf Systemdämmung“ über 1240 m2 müsste vor der Rohrverlegung eingebaut werden und würde beim Tackern durchstoßen, oder sie ist entbehrlich, weil die Systemplatte die Abdeckung bereits enthält. Ablauf und Notwendigkeit sind unklar. Ebenso ist im Estrich-LV nicht geregelt, wer den Randdämmstreifen stellt und wer ihn nach Belagsverlegung abschneidet.",
+   "quote": "überlappt, auf Systemdämmung verlegen.",
+   "action": "bieterfrage",
+   "question": "Zu Pos. 11.2.10: Die Systemdämmung mit Deckfolie und die Heizrohre werden vom Heizungsbauer verlegt. Wann und wo soll die PE-Trennlage eingebaut werden, bzw. entfällt die Position? Wer liefert und verlegt die Randdämmstreifen?"
+  },
+  {
+   "oz": "11.2.80",
+   "category": "menge",
+   "severity": 2,
+   "title": "10 m Bewegungsfugen für 1240 m2 Heizestrich nicht plausibel; Fugenplan fehlt",
+   "detail": "Heizestriche sind in Felder zu unterteilen, in Türdurchgängen und zwischen unterschiedlich beheizten Kreisen sind Bewegungsfugen anzuordnen. Für 1240 m2 Schulungsräume in zwei Geschossen sind 10 m um ein Vielfaches zu gering. Die Lage wird der Bauleitung überlassen, obwohl der Fugenplan vom Planer vorzugeben ist. Bei Kleinmengen-Kalkulation und späterer Vervielfachung stimmt der Einheitspreis nicht.",
+   "quote": "Bewegungsfugen mit Fugenprofil aus Aluminium ausbilden, Lage",
+   "basis": "DIN 18560-2 (Fugenplan durch den Bauwerksplaner)",
+   "action": "bieterfrage",
+   "question": "Zu Pos. 11.2.80: Liegt ein Fugenplan des Planers für den Heizestrich vor? Die Menge von 10 m erscheint für 1240 m2 Heizestrich mit Türdurchgängen zu gering; wir bitten um Überprüfung der Menge und Angabe von Profiltyp und Profilhöhe.",
+   "nachtrag": "Bei Mengenabweichung über 10 % kann nach § 2 Abs. 3 VOB/B auf Verlangen ein neuer Einheitspreis vereinbart werden; Mengenermittlung des Bieters dokumentieren."
+  },
+  {
+   "oz": "",
+   "category": "vertrag",
+   "severity": 2,
+   "title": "Höhengleiche Belagsanschlüsse verlangt, Belagsdicken und Höhenbezug nicht angegeben",
+   "detail": "Der AN soll alle Estrichhöhen so ausführen, dass die fertigen Oberbeläge ohne Höhendifferenz anschließen. Welche Beläge in welcher Dicke in welchen Räumen vorgesehen sind, steht im LV nicht; die Estrichdicke ist zugleich fest mit 65 mm bzw. 50 mm vorgegeben. Unterschiedliche Belagsdicken bedeuten unterschiedliche Estrichdicken, Höhenversprünge oder Ausgleich – ohne Angaben nicht kalkulierbar, das Koordinationsrisiko liegt beim AN.",
+   "quote": "Alle Estrichhöhen sind so auszuführen, dass die Anschlüsse der",
+   "basis": "VOB/A § 7 Abs. 1 Nr. 1 und Nr. 3",
+   "action": "bieterfrage",
+   "question": "Zur Vorbemerkung in Abschnitt 11: Welche Oberbeläge mit welchen Aufbauhöhen sind in den einzelnen Bereichen vorgesehen, und wird ein Höhenplan (Oberkante Fertigfußboden, Meterriss) gestellt? Wie werden vom Sollmaß abweichende Estrichdicken vergütet?",
+   "nachtrag": "Mehrdicken gegenüber der ausgeschriebenen Estrichdicke als geänderte Leistung nach § 2 Abs. 5 VOB/B anzeigen."
+  },
+  {
+   "oz": "11.2.70",
+   "category": "vertrag",
+   "severity": 2,
+   "title": "Belegreife nach 10 Tagen bei dickem Heizestrich als Erfolgszusage",
+   "detail": "Die Zulage verlangt ein Zusatzmittel mit Belegreife nach 10 Tagen. Ob das erreicht wird, hängt von Estrichdicke (mindestens 65 mm, siehe Pos. 11.2.20), Baustellenklima, Lüftung und dem Aufheizen durch den Heizungsbauer ab – Faktoren, die der Estrichleger nur teilweise beeinflusst. Offen ist zudem, auf welche Restfeuchte (CM-%) sich die Belegreife bezieht und ob die Zulage auch für den Verbundestrich gelten soll.",
+   "quote": "Schnellestrich mit einer Belegreife nach 10 Tagen.",
+   "action": "bieterfrage",
+   "question": "Zu Pos. 11.2.70: Auf welchen Restfeuchtewert (CM-%) und welche Estrichdicke bezieht sich die Belegreife nach 10 Tagen? Wer stellt die erforderlichen Klimabedingungen und das Aufheizen sicher, und gilt die Zulage nur für Pos. 11.2.20?"
+  },
+  {
+   "oz": "",
+   "category": "vertrag",
+   "severity": 1,
+   "title": "Schutz der Estrichflächen bis zur Belagsverlegung ohne Zeitangabe einzurechnen",
+   "detail": "Der Schutz bis zur Belagsverlegung soll ohne Vergütung bleiben. Wann der Bodenleger beginnt, ist nicht angegeben und vom Estrichleger nicht zu beeinflussen; in der Zwischenzeit nutzen Folgegewerke die Flächen. Über die eigene Abnahme hinausgehende Schutzmaßnahmen sind dem Umfang nach nicht schätzbar.",
+   "quote": "Der Schutz der Estrichflächen bis zur Belagsverlegung wird",
+   "basis": "VOB/A § 7 Abs. 1 Nr. 3",
+   "action": "zuschlag",
+   "question": "Zur Vorbemerkung in Abschnitt 11: Welcher Zeitraum liegt planmäßig zwischen Estricheinbau und Belagsverlegung, und welche Schutzmaßnahmen (Abdeckung, Absperrung) werden über die Abnahme der Estricharbeiten hinaus erwartet?",
+   "surchargePct": 2
+  }
+ ]
+}

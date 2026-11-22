@@ -1,0 +1,337 @@
+[
+ {
+  "file": "Demo_01_Rohbau_Erdarbeiten.X83",
+  "oz": "01.0040",
+  "rule": "V-BAUSEITS"
+ },
+ {
+  "file": "Demo_01_Rohbau_Erdarbeiten.X83",
+  "oz": "02.0020",
+  "rule": "W-NORM"
+ },
+ {
+  "file": "Demo_01_Rohbau_Erdarbeiten.X83",
+  "oz": "02.0040",
+  "rule": "M-VERHAELTNIS"
+ },
+ {
+  "file": "Demo_01_Rohbau_Erdarbeiten.X83",
+  "oz": "02.0040",
+  "rule": "U-KOMPLETT"
+ },
+ {
+  "file": "Demo_01_Rohbau_Erdarbeiten.X83",
+  "oz": "02.0040",
+  "rule": "U-PFLICHTANGABE"
+ },
+ {
+  "file": "Demo_01_Rohbau_Erdarbeiten.X83",
+  "oz": "02.0050",
+  "rule": "F-TIPPFEHLER"
+ },
+ {
+  "file": "Demo_01_Rohbau_Erdarbeiten.X83",
+  "oz": "02.0060",
+  "rule": "U-WAHL-AG"
+ },
+ {
+  "file": "Demo_01_Rohbau_Erdarbeiten.X83",
+  "oz": "02.0070",
+  "rule": "F-OZ-DOPPELT"
+ },
+ {
+  "file": "Demo_01_Rohbau_Erdarbeiten.X83",
+  "oz": "04.0020",
+  "rule": "W-KURZ-LANG"
+ },
+ {
+  "file": "Demo_01_Rohbau_Erdarbeiten.X83",
+  "oz": "04.0030",
+  "rule": "U-PFLICHTANGABE"
+ },
+ {
+  "file": "Demo_01_Rohbau_Erdarbeiten.X83",
+  "oz": "04.0050",
+  "rule": "M-PLATZHALTER"
+ },
+ {
+  "file": "Demo_01_Rohbau_Erdarbeiten.X83",
+  "oz": "04.0090",
+  "rule": "U-WAHL-AG"
+ },
+ {
+  "file": "Demo_01_Rohbau_Erdarbeiten.X83",
+  "oz": "04.0100",
+  "rule": "F-TIPPFEHLER"
+ },
+ {
+  "file": "Demo_01_Rohbau_Erdarbeiten.X83",
+  "oz": "04.0100",
+  "rule": "M-VERHAELTNIS"
+ },
+ {
+  "file": "Demo_01_Rohbau_Erdarbeiten.X83",
+  "oz": "04.0110",
+  "rule": "W-NORM"
+ },
+ {
+  "file": "Demo_01_Rohbau_Erdarbeiten.X83",
+  "oz": "04.0130",
+  "rule": "U-ERFORDERNIS"
+ },
+ {
+  "file": "Demo_01_Rohbau_Erdarbeiten.X83",
+  "oz": "04.0140",
+  "rule": "U-FABRIKAT"
+ },
+ {
+  "file": "Demo_01_Rohbau_Erdarbeiten.X83",
+  "oz": "04.0160",
+  "rule": "F-TEXT-FEHLT"
+ },
+ {
+  "file": "Demo_01_Rohbau_Erdarbeiten.X83",
+  "oz": "05.0020",
+  "rule": "U-WIEVOR"
+ },
+ {
+  "file": "Demo_01_Rohbau_Erdarbeiten.X83",
+  "oz": "05.0030",
+  "rule": "W-EINHEIT-TEXT"
+ },
+ {
+  "file": "Demo_01_Rohbau_Erdarbeiten.X83",
+  "oz": "05.0060",
+  "rule": "F-MENGE-FEHLT"
+ },
+ {
+  "file": "Demo_01_Rohbau_Erdarbeiten.X83",
+  "oz": "05.0060",
+  "rule": "F-OZ-LUECKE"
+ },
+ {
+  "file": "Demo_01_Rohbau_Erdarbeiten.X83",
+  "oz": "",
+  "rule": "L-FEHLT:Baustelle räumen"
+ },
+ {
+  "file": "Demo_01_Rohbau_Erdarbeiten.X83",
+  "oz": "",
+  "rule": "L-FEHLT:Wasserhaltung"
+ },
+ {
+  "file": "Demo_01_Rohbau_Erdarbeiten.X83",
+  "oz": "",
+  "rule": "V-ERSCHWERNIS-VB"
+ },
+ {
+  "file": "Demo_01_Rohbau_Erdarbeiten.X83",
+  "oz": "",
+  "rule": "V-EINRECHNEN-VB"
+ },
+ {
+  "file": "Demo_01_Rohbau_Erdarbeiten.X83",
+  "oz": "",
+  "rule": "V-TERMIN-VB"
+ },
+ {
+  "file": "Demo_01_Rohbau_Erdarbeiten.X83",
+  "oz": "",
+  "rule": "W-NORM:DIN 1045-1"
+ },
+ {
+  "file": "Demo_01_Rohbau_Erdarbeiten.X83",
+  "oz": "",
+  "rule": "F-EINHEIT-SCHREIBWEISE"
+ },
+ {
+  "file": "Demo_01_Rohbau_Erdarbeiten.X83",
+  "oz": "",
+  "rule": "B-ANGABEN"
+ },
+ {
+  "file": "Demo_01_Rohbau_Erdarbeiten.X83",
+  "oz": "",
+  "rule": "V-BEDARF"
+ },
+ {
+  "file": "Demo_01_Rohbau_Erdarbeiten.X83",
+  "oz": "",
+  "rule": "V-STUNDENLOHN"
+ },
+ {
+  "file": "Demo_14c_Fussbodenheizung.D83",
+  "oz": "01.01.0030",
+  "rule": "M-LIEFERN-VERLEGEN"
+ },
+ {
+  "file": "Demo_14c_Fussbodenheizung.D83",
+  "oz": "01.01.0040",
+  "rule": "U-FABRIKAT"
+ },
+ {
+  "file": "Demo_14c_Fussbodenheizung.D83",
+  "oz": "01.01.0070",
+  "rule": "U-KOMPLETT"
+ },
+ {
+  "file": "Demo_18_Estrich.pdf",
+  "oz": "11.2.20",
+  "rule": "S-SCHNITTSTELLE"
+ },
+ {
+  "file": "Demo_18_Estrich.pdf",
+  "oz": "11.2.30",
+  "rule": "W-EINHEIT-ART"
+ },
+ {
+  "file": "Demo_18_Estrich.pdf",
+  "oz": "11.2.40",
+  "rule": "S-SCHNITTSTELLE"
+ },
+ {
+  "file": "Demo_18_Estrich.pdf",
+  "oz": "11.2.50",
+  "rule": "F-TIPPFEHLER"
+ },
+ {
+  "file": "Demo_18_Estrich.pdf",
+  "oz": "11.2.70",
+  "rule": "F-OZ-LUECKE"
+ },
+ {
+  "file": "Demo_18_Estrich.pdf",
+  "oz": "11.2.80",
+  "rule": "U-WAHL-AG"
+ },
+ {
+  "file": "Demo_18_Estrich.pdf",
+  "oz": "11.2.90",
+  "rule": "M-PLATZHALTER"
+ },
+ {
+  "file": "Demo_18_Estrich.pdf",
+  "oz": "11.2.100",
+  "rule": "U-ERFORDERNIS"
+ },
+ {
+  "file": "Demo_18_Estrich.pdf",
+  "oz": "",
+  "rule": "L-FEHLT:Randdämmstreifen"
+ },
+ {
+  "file": "Demo_18_Estrich.pdf",
+  "oz": "",
+  "rule": "L-FEHLT:CM-Messung"
+ },
+ {
+  "file": "Demo_18_Estrich.pdf",
+  "oz": "",
+  "rule": "L-FEHLT:Funktions- / Belegreifheizen"
+ },
+ {
+  "file": "Demo_18_Estrich.pdf",
+  "oz": "",
+  "rule": "V-EINRECHNEN-VB"
+ },
+ {
+  "file": "Demo_20_Bodenbelag.xlsx",
+  "oz": "20.10",
+  "rule": "U-WAHL-AG"
+ },
+ {
+  "file": "Demo_20_Bodenbelag.xlsx",
+  "oz": "20.20",
+  "rule": "U-FABRIKAT"
+ },
+ {
+  "file": "Demo_20_Bodenbelag.xlsx",
+  "oz": "20.30",
+  "rule": "F-MENGE-FEHLT"
+ },
+ {
+  "file": "Demo_20_Bodenbelag.xlsx",
+  "oz": "20.50",
+  "rule": "F-DOPPELT"
+ },
+ {
+  "file": "Demo_20_Bodenbelag.xlsx",
+  "oz": "20.60",
+  "rule": "U-ODER-AEHNLICH"
+ },
+ {
+  "file": "Demo_20_Bodenbelag.xlsx",
+  "oz": "20.70",
+  "rule": "F-PSCH-MENGE"
+ },
+ {
+  "file": "Demo_20_Bodenbelag.xlsx",
+  "oz": "",
+  "rule": "L-FEHLT:Untergrundvorbereitung"
+ },
+ {
+  "file": "Demo_20_Bodenbelag.xlsx",
+  "oz": "",
+  "rule": "V-TERMIN-VB"
+ },
+ {
+  "file": "Demo_20_Bodenbelag.xlsx",
+  "oz": "",
+  "rule": "V-EINRECHNEN-VB"
+ },
+ {
+  "file": "Demo_Angebot_Wasserleitung.D84",
+  "oz": "1.1.50",
+  "rule": "P-SPEKULATIV"
+ },
+ {
+  "file": "Demo_Angebot_Wasserleitung.D84",
+  "oz": "2.1.10",
+  "rule": "P-SPEKULATIV"
+ },
+ {
+  "file": "Demo_Angebot_Wasserleitung.D84",
+  "oz": "2.1.20",
+  "rule": "P-SPEKULATIV"
+ },
+ {
+  "file": "Demo_Angebot_Wasserleitung.D84",
+  "oz": "2.1.40",
+  "rule": "F-RECHNEN"
+ },
+ {
+  "file": "Demo_Angebot_Wasserleitung.D84",
+  "oz": "2.1.50",
+  "rule": "P-SPEKULATIV"
+ },
+ {
+  "file": "Demo_Angebot_Wasserleitung.D84",
+  "oz": "2.1.60",
+  "rule": "P-SPEKULATIV"
+ },
+ {
+  "file": "Demo_Angebot_Wasserleitung.D84",
+  "oz": "2.1.70",
+  "rule": "P-HOCH"
+ },
+ {
+  "file": "Demo_Angebot_Wasserleitung.D84",
+  "oz": "2.3.50",
+  "rule": "P-NULL"
+ },
+ {
+  "file": "Demo_Angebot_Wasserleitung.D84",
+  "oz": "3.1.20",
+  "rule": "M-LIEFERN-VERLEGEN"
+ },
+ {
+  "file": "Demo_Angebot_Wasserleitung.D84",
+  "oz": "",
+  "rule": "P-MISCHKALKULATION"
+ },
+ {
+  "file": "Demo_Angebot_Wasserleitung.D84",
+  "oz": "",
+  "rule": "F-SUMME"
+ }
+]

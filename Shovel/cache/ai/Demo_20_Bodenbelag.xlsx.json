@@ -1,0 +1,74 @@
+{
+ "docId": "8268b1198b9cb74b",
+ "fileName": "Demo_20_Bodenbelag.xlsx",
+ "model": "claude-fable-5-2 (offline über Claude Code)",
+ "createdAt": "2026-11-20T23:18:41.673Z",
+ "findings": [
+  {
+   "oz": "20.10",
+   "category": "luecke",
+   "severity": 3,
+   "title": "Untergrundvorbereitung (Grundieren, Spachteln, Feuchtemessung) fehlt im gesamten LV",
+   "detail": "Das LV enthält ausschließlich Belags-, Sockel- und Profilpositionen. Für 2 mm Kautschuk in Bahnen ist ein vollflächig gespachtelter Untergrund technisch zwingend; Positionen für Anschleifen/Reinigen, Grundieren, Spachteln (Schichtdicke), Schließen von Fugen sowie die Feuchtemessung auf dem Heizestrich fehlen. Offen ist, ob das als eingerechnet gelten soll.",
+   "quote": "Kautschuk-Bodenbelag in Bahnen, Dicke 2,0 mm, vollflächig verkleben.",
+   "basis": "DIN 18365 (Spachteln und besondere Untergrundvorbereitung sind in der Leistungsbeschreibung anzugeben)",
+   "action": "bieterfrage",
+   "question": "Zu Pos. 20.10: Das LV enthält keine Positionen für die Untergrundvorbereitung. In welchen Positionen sind Grundieren und vollflächiges Spachteln (Schichtdicke) zu erfassen, bzw. werden hierfür Positionen ergänzt? In welchem Zustand (geschliffen, belegreif, Aufheizprotokoll) wird der Estrich übergeben?",
+   "nachtrag": "Wird die Leistung später verlangt: zusätzliche Leistung nach § 2 Abs. 6 VOB/B; der Vergütungsanspruch muss dem Auftraggeber vor Beginn der Ausführung angekündigt werden."
+  },
+  {
+   "oz": "",
+   "category": "vertrag",
+   "severity": 2,
+   "title": "Ausführung in Abschnitten nach Angabe des AG, Unterbrechungen ohne Vergütung",
+   "detail": "Anzahl, Größe und zeitliche Lage der Abschnitte sind nicht angegeben, Unterbrechungen sollen entschädigungslos bleiben. Jede Unterbrechung bedeutet erneute An- und Abfahrt, Materialdisposition und Kolonnenumsetzung. Die Zahl der Einsätze kann der Bieter weder beeinflussen noch schätzen.",
+   "quote": "Die Belagsarbeiten erfolgen in Abschnitten nach Angabe des AG. Unterbrechungen sind nicht gesondert zu vergüten.",
+   "basis": "VOB/A § 7 Abs. 1 Nr. 3",
+   "action": "zuschlag",
+   "question": "Zu den Vorbemerkungen: In wie vielen Abschnitten und mit welchen Unterbrechungszeiträumen sind die Belagsarbeiten auszuführen? Wir bitten um einen Terminplan mit den Abschnitten.",
+   "surchargePct": 4,
+   "nachtrag": "Kalkulierte Anzahl der Abschnitte im Angebot benennen; darüber hinausgehende, vom AG veranlasste Unterbrechungen als Behinderung nach § 6 Abs. 1 VOB/B schriftlich anzeigen."
+  },
+  {
+   "oz": "20.50",
+   "category": "widerspruch",
+   "severity": 2,
+   "title": "Zwei textgleiche Sockelleisten-Positionen mit unterschiedlichen Mengen",
+   "detail": "Pos. 20.40 (610 m) und Pos. 20.50 (240 m) haben identischen Kurz- und Langtext. Vermutlich war für eine der beiden ein anderer Sockel gemeint, etwa für die 340 m2 Teppichboden, für die sonst kein Sockel ausgeschrieben ist. Bei textgleichen Positionen entstehen zudem zwei Einheitspreise für dieselbe Leistung.",
+   "quote": "Sockelleiste aus Kautschuk, Höhe 60 mm, kleben.",
+   "action": "bieterfrage",
+   "question": "Zu Pos. 20.50: Die Position ist textgleich mit Pos. 20.40. Worin unterscheiden sich die beiden Positionen (Einbauort, Material, Ausführung)? Welcher Sockel ist in den Bereichen mit Teppichboden vorgesehen?"
+  },
+  {
+   "oz": "20.70",
+   "category": "menge",
+   "severity": 2,
+   "title": "Erstpflege: 3 Pauschalen ohne Flächenbezug, Linoleum mit Menge 0 mitgenannt",
+   "detail": "Eine Pauschale mit Menge 3 ist nicht eindeutig (je Abschnitt, je Geschoss, je Belagsart?). Die Erstpflege soll auch Linoleumbeläge umfassen, deren Position 20.30 mit Menge 0 ausgeschrieben ist. Welche Fläche tatsächlich zu pflegen ist und ob eine Bauschlussreinigung vorausgeht, bleibt offen.",
+   "quote": "Erstpflege der Kautschuk- und Linoleumbeläge nach Herstellervorschrift.",
+   "action": "bieterfrage",
+   "question": "Zu Pos. 20.70: Worauf bezieht sich die Menge von 3 Pauschalen, und welche Flächen sind jeweils umfasst? Kommt Linoleum (Pos. 20.30 mit Menge 0) zur Ausführung? Wir regen die Abrechnung nach m2 an."
+  },
+  {
+   "oz": "20.80",
+   "category": "unklar",
+   "severity": 2,
+   "title": "Treppenstufen: Detail D-07 liegt nicht vor, Stufenausbildung offen",
+   "detail": "Die Position verweist auf ein Detail D-07, das dem LV nicht beiliegt. Unklar sind Stufenform (gerade/gewendelt), ob Tritt- und Setzstufe einteilig mit angeformter Kante belegt werden, Stufentiefe, Wangen-/Sockelausbildung, Podeste sowie die Untergrundvorbereitung der Rohstufen. Diese Angaben bestimmen Formteil und Arbeitsaufwand.",
+   "quote": "Treppenstufen mit Kautschuk-Formtreppe belegen, Stufenbreite bis 1,20 m, gemäß Detail D-07.",
+   "action": "bieterfrage",
+   "question": "Zu Pos. 20.80: Wir bitten um Übersendung des Details D-07 sowie um Angaben zu Stufenform, Auftritt und Steigung, zur Ausbildung von Setzstufe und Treppensockel und zum Untergrund der Stufen (Rohbeton, gespachtelt)."
+  },
+  {
+   "oz": "20.20",
+   "category": "unklar",
+   "severity": 2,
+   "title": "Teppichfliesen: Lieferung, Verlegeart und Qualitätsmerkmale nicht beschrieben",
+   "detail": "Der Text nennt nur „verlegen“ und ein Fabrikat. Ob die Lieferung enthalten ist, wie die Fliesen zu verlegen sind (lose mit Fixierung, wiederaufnehmbar oder verklebt) und welche Anforderungen gelten (Nutzungsklasse, Stuhlrolleneignung, Eignung auf Fußbodenheizung, antistatisches Verhalten), ist nicht angegeben.",
+   "quote": "Textiler Bodenbelag, Schlinge, Fliesenformat 50 x 50 cm, verlegen.",
+   "basis": "VOB/A § 7 Abs. 1 Nr. 1",
+   "action": "bieterfrage",
+   "question": "Zu Pos. 20.20: Ist die Lieferung des Teppichbodens enthalten? Welche Verlegeart (Fixierung oder Verklebung) ist vorgesehen, und welche technischen Anforderungen (Nutzungsklasse, Stuhlrolleneignung, Eignung für Fußbodenheizung) gelten als Maßstab für die Gleichwertigkeit?"
+  }
+ ]
+}

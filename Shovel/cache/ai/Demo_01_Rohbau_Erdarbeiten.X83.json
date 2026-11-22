@@ -1,0 +1,122 @@
+{
+ "docId": "d4e1b4db73020278",
+ "fileName": "Demo_01_Rohbau_Erdarbeiten.X83",
+ "model": "claude-fable-5-2 (offline über Claude Code)",
+ "createdAt": "2026-11-20T23:18:40.616Z",
+ "findings": [
+  {
+   "oz": "04.0020",
+   "category": "widerspruch",
+   "severity": 3,
+   "title": "Bodenplatte: Kurztext und Langtext nennen unterschiedliche Betongüte und Dicke",
+   "detail": "Der Kurztext nennt C25/30 und d = 25 cm, der Langtext C30/37 und 30 cm als WU-Konstruktion. Die ausgeschriebene Menge von 462 m3 passt bei 1850 m2 Grundfläche zu 25 cm, nicht zu 30 cm. Betongüte, Dicke und damit auch Menge, Bewehrungsgehalt und Randschalung sind nicht sicher kalkulierbar.",
+   "quote": "Bodenplatte aus Stahlbeton, Festigkeitsklasse C30/37, Expositionsklasse XC2, als WU-Konstruktion.",
+   "basis": "VOB/A § 7 Abs. 1 Nr. 1 (eindeutige und erschöpfende Leistungsbeschreibung)",
+   "action": "bieterfrage",
+   "question": "Zu Pos. 04.0020: Kurztext (C25/30, d = 25 cm) und Langtext (C30/37, Dicke 30 cm) widersprechen sich. Welche Betonfestigkeitsklasse und welche Plattendicke sind auszuführen, und wird die Menge von 462 m3 entsprechend angepasst?",
+   "nachtrag": "Bei späterer Festlegung abweichend von der Kalkulationsannahme: geänderte Leistung nach § 2 Abs. 5 VOB/B; Mehrkosten vor Ausführung anzeigen und Kalkulationsannahme im Angebotsbegleitschreiben dokumentieren."
+  },
+  {
+   "oz": "",
+   "category": "widerspruch",
+   "severity": 2,
+   "title": "„Nicht unterkellert“ passt nicht zu Baugrube, Arbeitsraumverfüllung und WU-Bauweise",
+   "detail": "Laut Vorbemerkung ist das Gebäude nicht unterkellert. Das LV enthält aber 2400 m3 Baugrubenaushub bis 1,80 m Tiefe, 620 m3 Arbeitsraumverfüllung, Fugenbleche Bodenplatte/Wand und eine WU-Bodenplatte. Gründungsebene, Geländeverlauf und die Frage, ob erdberührte Wände (dann WU-Anforderung auch für Pos. 04.0040) vorhanden sind, bleiben offen. Ohne Schnitte ist auch die Böschungs- bzw. Verbaufrage nicht zu beurteilen.",
+   "quote": "Das Gebäude ist nicht unterkellert.",
+   "basis": "VOB/A § 7 Abs. 1 Nr. 1 und Nr. 2",
+   "action": "bieterfrage",
+   "question": "Zu den Vorbemerkungen: Das Gebäude ist als nicht unterkellert beschrieben, das LV enthält jedoch Baugrubenaushub bis 1,80 m Tiefe, Arbeitsraumverfüllung und Fugenbleche Bodenplatte/Wand. Wir bitten um Angabe der Gründungsebene bezogen auf das Gelände, um Schnitte der Baugrube sowie um Klärung, ob erdberührte Wände als WU-Konstruktion auszuführen sind."
+  },
+  {
+   "oz": "02.0040",
+   "category": "menge",
+   "severity": 3,
+   "title": "Abfuhrmenge übersteigt den gesamten Aushub; Deklaration des Bodens fehlt",
+   "detail": "Zur Abfuhr sind 3900 m3 ausgeschrieben. Baugruben- und Fundamentaushub ergeben zusammen nur 2710 m3 (jeweils feste Masse unterstellt), davon sollen 620 m3 wieder in die Arbeitsräume eingebaut werden; der Oberboden bleibt laut Pos. 02.0010 auf dem Grundstück. Die Menge ist so nicht nachvollziehbar (Auflockerung eingerechnet? Oberboden doch abzufahren?). Zusätzlich fehlen Angaben zur Materialklasse/Deklarationsanalytik des Bodens, obwohl Gebühren im Einheitspreis enthalten sein sollen – das Entsorgungsrisiko ist ohne Analytik nicht schätzbar.",
+   "quote": "Überschüssigen Aushubboden laden, abfahren und einer Verwertung zuführen",
+   "basis": "VOB/A § 7 Abs. 1 Nr. 3 (kein ungewöhnliches Wagnis) und Nr. 6 (Boden- und Wasserverhältnisse)",
+   "action": "bieterfrage",
+   "question": "Zu Pos. 02.0040: Die Abfuhrmenge von 3900 m3 übersteigt die Summe der Aushubpositionen 02.0020 und 02.0030 abzüglich der Wiederverfüllung deutlich. Wie setzt sich die Menge zusammen (feste oder lose Masse, mit oder ohne Oberboden)? Liegt eine Deklarationsanalytik vor, und welche Materialklasse ist der Kalkulation zugrunde zu legen?",
+   "nachtrag": "Stellt sich eine ungünstigere Materialklasse heraus als der Kalkulation zugrunde gelegt, kommt eine geänderte Vergütung nach § 2 Abs. 5 VOB/B in Betracht; Kalkulationsannahme zur Materialklasse im Angebot offenlegen und Mehrkosten vor der Abfuhr anzeigen."
+  },
+  {
+   "oz": "04.0050",
+   "category": "menge",
+   "severity": 2,
+   "title": "Stützenbeton 1 m3 passt nicht zu 135 m2 Stützenschalung",
+   "detail": "Für Stützen 40 x 40 cm mit Höhe bis 4,20 m sind 1 m3 Beton ausgeschrieben; das entspricht nicht einmal zwei Stützen. Die zugehörige Schalung (Pos. 04.0090) ist mit 135 m2 angesetzt, was einer Größenordnung von rund 20 Stützen entspricht. Eine der beiden Mengen ist offensichtlich falsch; bei einer Kleinstmenge wäre der Einheitspreis völlig anders zu kalkulieren.",
+   "quote": "Stützen aus Stahlbeton C30/37, Querschnitt 40 x 40 cm, Höhe bis 4,20 m.",
+   "action": "bieterfrage",
+   "question": "Zu Pos. 04.0050: Die Betonmenge von 1 m3 steht in keinem Verhältnis zur Stützenschalung von 135 m2 in Pos. 04.0090. Wie viele Stützen sind herzustellen, und welche Menge ist richtig?",
+   "nachtrag": "Bei Mengenabweichung über 10 % kann nach § 2 Abs. 3 VOB/B auf Verlangen ein neuer Einheitspreis vereinbart werden; Mengenermittlung des Bieters dokumentieren."
+  },
+  {
+   "oz": "",
+   "category": "vertrag",
+   "severity": 3,
+   "title": "Wasserhaltung ohne Angaben zum Grundwasser in die Einheitspreise einzurechnen",
+   "detail": "Die offene Wasserhaltung soll „soweit erforderlich“ in den Einheitspreisen enthalten sein. Das LV enthält weder Angaben zu Grundwasserstand, Schichtenwasser und Durchlässigkeit des Bodens noch einen Hinweis auf ein Baugrundgutachten. Bei 1,80 m Baugrubentiefe zuzüglich 1,20 m Fundamentaushub ist Umfang und Dauer der Wasserhaltung nicht schätzbar; das Risiko wird ohne Kalkulationsgrundlage auf den AN verlagert.",
+   "quote": "Maßnahmen der offenen Wasserhaltung sind, soweit erforderlich, in die Einheitspreise einzurechnen.",
+   "basis": "VOB/A § 7 Abs. 1 Nr. 3 und Nr. 6",
+   "action": "bieterfrage",
+   "question": "Zu den Vorbemerkungen (Wasserhaltung): Liegt ein Baugrundgutachten mit Angaben zum Bemessungswasserstand und zu Schichtenwasser vor und wird es den Bietern zur Verfügung gestellt? Wir bitten, die Wasserhaltung als eigene Position (Einrichten, Betreiben nach Zeit) auszuschreiben.",
+   "nachtrag": "Kalkulationsannahme (z. B. nur Tagwasser, kein Grundwasseranschnitt) im Angebot benennen; bei abweichenden Verhältnissen Mehrkosten unverzüglich anzeigen und Vergütungsanpassung nach § 2 Abs. 5 bzw. Abs. 6 VOB/B verlangen."
+  },
+  {
+   "oz": "",
+   "category": "vertrag",
+   "severity": 2,
+   "title": "Vertragsstrafe ohne Obergrenze",
+   "detail": "Die Vertragsstrafe von 0,2 % je Werktag ist ohne Begrenzung der Gesamthöhe vereinbart. Üblich und von der Rechtsprechung für vorformulierte Bedingungen gefordert ist eine Obergrenze von höchstens 5 % der Auftragssumme. Ohne Obergrenze ist das Terminrisiko nicht begrenzt; außerdem ist der maßgebliche Fertigstellungstermin im LV nicht genannt.",
+   "quote": "Für die Überschreitung des Fertigstellungstermins wird eine Vertragsstrafe von 0,2 % der Auftragssumme je Werktag vereinbart.",
+   "basis": "§ 11 VOB/B; VOB/A § 9a (Vertragsstrafen in angemessenen Grenzen)",
+   "action": "bieterfrage",
+   "question": "Zu den Vorbemerkungen (Vertragsstrafe): Auf welchen Höchstbetrag ist die Vertragsstrafe insgesamt begrenzt, und welcher Fertigstellungstermin (Datum bzw. Ausführungsfrist) ist maßgeblich?"
+  },
+  {
+   "oz": "02.0030",
+   "category": "unklar",
+   "severity": 2,
+   "title": "Homogenbereich B1 nicht beschrieben; daneben Bodenklassen in Pos. 02.0020",
+   "detail": "Der Fundamentaushub verweist auf einen Homogenbereich B1, der im LV nirgends mit Kennwerten beschrieben ist. Der Baugrubenaushub (Pos. 02.0020) wird dagegen nach Bodenklassen beschrieben. Beide Systeme nebeneinander ohne Baugrundangaben lassen offen, mit welchem Boden (Lösbarkeit, Steinanteil, Wiederverwendbarkeit für Pos. 02.0050) zu rechnen ist.",
+   "quote": "Aushubtiefe bis 1,20 m unter Baugrubensohle, Homogenbereich B1.",
+   "basis": "VOB/A § 7 Abs. 1 Nr. 6; DIN 18300 (Angabe von Homogenbereichen)",
+   "action": "bieterfrage",
+   "question": "Zu Pos. 02.0030: Der Homogenbereich B1 ist im LV nicht beschrieben. Wir bitten um die Kennwerte der Homogenbereiche nach DIN 18300 bzw. um Übergabe des Baugrundgutachtens sowie um Bestätigung, dass der Aushubboden für die Arbeitsraumverfüllung (Pos. 02.0050) geeignet ist.",
+   "nachtrag": "Bei späterer Festlegung abweichend von der Kalkulationsannahme: geänderte Leistung nach § 2 Abs. 5 VOB/B; Mehrkosten vor Ausführung anzeigen und Kalkulationsannahme im Angebotsbegleitschreiben dokumentieren."
+  },
+  {
+   "oz": "",
+   "category": "unklar",
+   "severity": 2,
+   "title": "Sichtbeton: Flächen, Musterflächen und Schalungsstöße nicht festgelegt",
+   "detail": "Der Hinweis fordert Bemusterung und kündigt eine spätere Festlegung der Schalungsstöße an. Offen bleibt, welche Bauteile Sichtbeton sind (Wandschalung Pos. 04.0070 ist nur „glatt“, Stützenschalung SB2), wie viele Erprobungs- bzw. Musterflächen herzustellen sind und wer sie vergütet. Ein nachträglich vorgegebenes Schalungsmusterbild beeinflusst Schalsystem, Schalhautwechsel und Aufwand erheblich.",
+   "quote": "Sichtbetonflächen sind in Abstimmung mit dem Architekten zu bemustern. Die Schalungsstöße werden noch festgelegt.",
+   "basis": "VOB/A § 7 Abs. 1 Nr. 1",
+   "action": "bieterfrage",
+   "question": "Zum Hinweis Sichtbeton in Abschnitt 04: Welche Bauteile sind in welcher Sichtbetonklasse herzustellen? Wie viele Musterflächen in welcher Größe sind vorgesehen und über welche Position werden sie vergütet? Wir bitten um einen Schalungsmusterplan vor Angebotsabgabe.",
+   "nachtrag": "Bei späterer Festlegung abweichend von der Kalkulationsannahme: geänderte Leistung nach § 2 Abs. 5 VOB/B; Mehrkosten vor Ausführung anzeigen und Kalkulationsannahme im Angebotsbegleitschreiben dokumentieren."
+  },
+  {
+   "oz": "05.0030",
+   "category": "widerspruch",
+   "severity": 2,
+   "title": "Außenmauerwerk: Einheit m2, aber „Abrechnung nach m3“; Steinqualität fehlt",
+   "detail": "Die Position ist in m2 ausgeschrieben, der Langtext verlangt Abrechnung nach m3. Zudem fehlen für ein 36,5 cm dickes Außenmauerwerk die preisbestimmenden Angaben: Druckfestigkeits- und Rohdichteklasse, Wärmeleitfähigkeit (gefüllter oder ungefüllter Ziegel), Mörtelart bzw. Planziegel im Dünnbett. Die Preisspanne zwischen den möglichen Ziegeln ist groß.",
+   "quote": "Abrechnung nach m3.",
+   "basis": "VOB/A § 7 Abs. 1 Nr. 1",
+   "action": "bieterfrage",
+   "question": "Zu Pos. 05.0030: Die Menge ist in m2 angegeben, abgerechnet werden soll nach m3. Welche Einheit gilt? Wir bitten außerdem um Angabe von Druckfestigkeitsklasse, Rohdichteklasse, Bemessungswert der Wärmeleitfähigkeit und Vermörtelungsart der Hochlochziegel."
+  },
+  {
+   "oz": "05.0020",
+   "category": "unklar",
+   "severity": 2,
+   "title": "Verweis auf nicht vorhandene Pos. 05.0090",
+   "detail": "Die Position beschreibt sich nur über einen Verweis auf Pos. 05.0090, die es im LV nicht gibt. Steinart, Festigkeit und Verarbeitung des 24 cm dicken Mauerwerks sind damit unbekannt (Kalksandstein wie 05.0010 oder Hochlochziegel wie 05.0030?).",
+   "quote": "Wie Pos. 05.0090, jedoch Dicke 24 cm.",
+   "action": "bieterfrage",
+   "question": "Zu Pos. 05.0020: Die in Bezug genommene Pos. 05.0090 ist im LV nicht enthalten. Auf welche Position bezieht sich der Verweis bzw. welches Mauerwerk (Steinart, Festigkeits- und Rohdichteklasse, Vermörtelung) ist in 24 cm Dicke auszuführen?"
+  }
+ ]
+}
